@@ -505,6 +505,44 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:14:10.729Z"
+    },
+    {
+      "Id": "61095aee-80a2-440d-8ceb-371d2f70423f",
+      "Title": "Salsa tzatziki",
+      "SourceUrl": "https://www.tiktok.com/@nutrifitgema/video/7356206511695138081",
+      "CategoryIds": [
+        "02831ce2-febc-4f38-a7ec-d0a4f860c5cc"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "143eac3c-8d06-42cc-87a0-4e6c16821e36",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "bf162853-b562-43df-b376-1e27a3cfdc17",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "45a17cbd-b18b-48dc-b091-6a46dd8869cd",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "04c67b66-da1b-464e-bcb5-864016776f11",
+          "Quantity": null
+        }
+      ],
+      "Steps": "250g yogur griego\n20ml AOVE\n1 pepino peque\u00F1o\n1/4 de cebolla\nMenta fresca o hierbabuena\nSal\n\nPica las verduritas y mezcla todos los ingredientes",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:20:02.336Z"
     }
   ],
   "Categories": [
@@ -557,6 +595,11 @@
       "Id": "8423c5a3-a688-4833-b538-e951ce11cb05",
       "Name": "Coreano",
       "NormalizedName": "coreano"
+    },
+    {
+      "Id": "02831ce2-febc-4f38-a7ec-d0a4f860c5cc",
+      "Name": "Salsa",
+      "NormalizedName": "salsa"
     }
   ],
   "Ingredients": [
@@ -774,6 +817,26 @@
       "Id": "abdffb99-7350-4bb4-947c-0b2409b7d26f",
       "Name": "Caldo en polvo",
       "NormalizedName": "caldo en polvo"
+    },
+    {
+      "Id": "143eac3c-8d06-42cc-87a0-4e6c16821e36",
+      "Name": "Yogur griego",
+      "NormalizedName": "yogur griego"
+    },
+    {
+      "Id": "bf162853-b562-43df-b376-1e27a3cfdc17",
+      "Name": "Pepino",
+      "NormalizedName": "pepino"
+    },
+    {
+      "Id": "45a17cbd-b18b-48dc-b091-6a46dd8869cd",
+      "Name": "Menta fresca",
+      "NormalizedName": "menta fresca"
+    },
+    {
+      "Id": "04c67b66-da1b-464e-bcb5-864016776f11",
+      "Name": "Hierbabuena",
+      "NormalizedName": "hierbabuena"
     }
   ]
 }
