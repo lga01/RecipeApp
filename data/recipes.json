@@ -15,6 +15,23 @@
       "Notes": null,
       "CreatedAt": "2026-07-05T15:57:33.824Z",
       "ImageUrl": null
+    },
+    {
+      "Id": "5e610826-10c7-44d0-a107-c1221b33fbb3",
+      "Title": "TestR",
+      "SourceUrl": "https://www.youtube.com/watch?v=tRyXb85gFKw",
+      "CategoryIds": [
+        "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b",
+        "d4db7885-1d85-4f14-af38-9ca55f87d10c"
+      ],
+      "IngredientIds": [
+        "361f3322-a6c2-41d9-bd60-4bee53800eb6",
+        "f776b0bc-daea-48df-a0e7-1f01b5945551"
+      ],
+      "Steps": "Llorar",
+      "Notes": "no se",
+      "CreatedAt": "2026-07-05T16:32:16.11Z",
+      "ImageUrl": "https://www.youtube.com/watch?v=tRyXb85gFKw"
     }
   ],
   "Categories": [
@@ -22,6 +39,11 @@
       "Id": "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b",
       "Name": "Cena",
       "NormalizedName": "cena"
+    },
+    {
+      "Id": "d4db7885-1d85-4f14-af38-9ca55f87d10c",
+      "Name": "Postre",
+      "NormalizedName": "postre"
     }
   ],
   "Ingredients": [
@@ -34,6 +56,16 @@
       "Id": "ea647afc-2bab-4876-a132-7c47ffbc0d0f",
       "Name": "Patata",
       "NormalizedName": "patata"
+    },
+    {
+      "Id": "361f3322-a6c2-41d9-bd60-4bee53800eb6",
+      "Name": "Maniqui",
+      "NormalizedName": "maniqui"
+    },
+    {
+      "Id": "f776b0bc-daea-48df-a0e7-1f01b5945551",
+      "Name": "Si",
+      "NormalizedName": "si"
     }
   ]
 }
