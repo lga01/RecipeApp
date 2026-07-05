@@ -543,6 +543,40 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:20:02.336Z"
+    },
+    {
+      "Id": "f414d7fa-0ccd-4509-973c-24c00733eb80",
+      "Title": "Burrito de pollo con salsa tsatziki",
+      "SourceUrl": "https://www.tiktok.com/@nutrifitgema/video/7356990615382428960",
+      "CategoryIds": [
+        "7d600b22-bf4c-4868-b45f-19e7cb738768"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "aedba767-1f5b-4cac-8db2-bf6dce60bcb3",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "9298c460-4c9c-4e45-b293-4a15a13ad322",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "9c5c32ea-c1af-4da3-b495-3afcd8da1d4c",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Haces el pollo en tiras o trozos, lo mezclas con la lechuga, cebolla, la salsa y a la sart\u00E9n el burrito",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:21:10.871Z"
     }
   ],
   "Categories": [
@@ -837,6 +871,16 @@
       "Id": "04c67b66-da1b-464e-bcb5-864016776f11",
       "Name": "Hierbabuena",
       "NormalizedName": "hierbabuena"
+    },
+    {
+      "Id": "9298c460-4c9c-4e45-b293-4a15a13ad322",
+      "Name": "Lechuga",
+      "NormalizedName": "lechuga"
+    },
+    {
+      "Id": "9c5c32ea-c1af-4da3-b495-3afcd8da1d4c",
+      "Name": "Salsa tsatziki",
+      "NormalizedName": "salsa tsatziki"
     }
   ]
 }
