@@ -427,6 +427,34 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:11:16.339Z"
+    },
+    {
+      "Id": "d756c48c-0889-4e8a-aa3a-07869cf370cc",
+      "Title": "Pollo marinado indio",
+      "SourceUrl": "https://www.tiktok.com/@nutrisinexcusas/video/7328114694890327328",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6608660e-c198-495f-99fe-2aa47d358418",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "197f048a-cce6-4537-849a-091ee7e0868d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "787a571f-f12a-4a8b-a92a-35799c05fdb6",
+          "Quantity": null
+        }
+      ],
+      "Steps": "",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:12:25.848Z"
     }
   ],
   "Categories": [
@@ -646,6 +674,21 @@
       "Id": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
       "Name": "Aceite de oliva",
       "NormalizedName": "aceite de oliva"
+    },
+    {
+      "Id": "6608660e-c198-495f-99fe-2aa47d358418",
+      "Name": "Curry",
+      "NormalizedName": "curry"
+    },
+    {
+      "Id": "197f048a-cce6-4537-849a-091ee7e0868d",
+      "Name": "Yogurt",
+      "NormalizedName": "yogurt"
+    },
+    {
+      "Id": "787a571f-f12a-4a8b-a92a-35799c05fdb6",
+      "Name": "Sal",
+      "NormalizedName": "sal"
     }
   ]
 }
