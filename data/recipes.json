@@ -1,5 +1,32 @@
 {
-  "Recipes": [],
+  "Recipes": [
+    {
+      "Id": "7248b088-8971-4aa8-a79d-67d57147aa30",
+      "Title": "test",
+      "SourceUrl": "https://www.youtube.com/watch?v=XZYusVpMWTw\u0026list=RDeU0eVJPDxoE\u0026index=4",
+      "CategoryIds": [
+        "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "ea647afc-2bab-4876-a132-7c47ffbc0d0f",
+          "Quantity": "12"
+        },
+        {
+          "IngredientId": "0bba2ddf-8575-4050-8478-2f5c40e82cbd",
+          "Quantity": "13344dfdd"
+        },
+        {
+          "IngredientId": "3fa67d77-1f91-4704-aaaa-3389b5220104",
+          "Quantity": null
+        }
+      ],
+      "Steps": "dasdsa",
+      "Notes": "ddddd",
+      "ImageUrl": "https://www.youtube.com/watch?v=XZYusVpMWTw\u0026list=RDeU0eVJPDxoE\u0026index=4",
+      "CreatedAt": "2026-07-05T16:50:27.049Z"
+    }
+  ],
   "Categories": [
     {
       "Id": "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b",
@@ -32,6 +59,16 @@
       "Id": "f776b0bc-daea-48df-a0e7-1f01b5945551",
       "Name": "Si",
       "NormalizedName": "si"
+    },
+    {
+      "Id": "0bba2ddf-8575-4050-8478-2f5c40e82cbd",
+      "Name": "aaaa",
+      "NormalizedName": "aaaa"
+    },
+    {
+      "Id": "3fa67d77-1f91-4704-aaaa-3389b5220104",
+      "Name": "aaa1",
+      "NormalizedName": "aaa1"
     }
   ]
 }
