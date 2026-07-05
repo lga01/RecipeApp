@@ -1,5 +1,63 @@
 {
-  "Recipes": [],
-  "Categories": [],
-  "Ingredients": []
+  "Recipes": [
+    {
+      "Id": "ec451860-a4e6-4bfe-bc7a-edb159de38ac",
+      "Title": "Bombas de patata",
+      "SourceUrl": "https://www.tiktok.com/@armandococinando/video/7241257889371901211",
+      "CategoryIds": [
+        "b628f9ac-89a4-4661-9575-21bc2327798b"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "bb3fd23c-5dd4-4add-9c2b-975ad4096fc1",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "feec5167-fff2-45b8-84c5-e738e00432ad",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1) Hervir a fuego moderado 1 kg de papas, enteras, con un pu\u00F1ado de sal hasta que est\u00E9n tiernas. Colar y pisar y condimentar con 25 gr de manteca, pimienta negra, nuez moscada, y m\u00E1s sal si fuera necesario. Reservar hasta que el pur\u00E9 est\u00E9 a temperatura ambiente y llevar a heladera hasta enfriar bien. (Tambi\u00E9n se puede usar pur\u00E9 sobrante de un d\u00EDa anterior, en ese caso, si el pur\u00E9 llevaba leche, agregarle un poco de harina a ojo para que no quede tan l\u00EDquido)\n2) Con el pur\u00E9 fr\u00EDo y las manos un poco humedecidas formar las croquetas colocando un pu\u00F1ado de pur\u00E9 sobre la palma de la mano. Aplanarlo y colocarle muzzarella (yo us\u00E9 dos muzzarellas distintas, una pre rallada bien sequita y otra m\u00E1s h\u00FAmeda) o el relleno deseado. Llevar los bordes hacia adentro dejando solo una cara del relleno por cubrir. Colocar m\u00E1s pur\u00E9 sobre ese lado y darle forma de bola a la croqueta. Asegurarse de que no quede aire dentro del relleno para que luego no se exploten al cocinarse.\n3) Pasar por harina, huevo batido y pan rallado. Colocar en un plato y llevar al fr\u00EDo 20 minutos. Calentar una olla con abundante aceite para fre\u00EDr (yo us\u00E9 de girasol). Una vez que el aceite est\u00E9 caliente (180 grados aprox.) cocinar las bombas de papa hasta que est\u00E9n doradas. No llevar\u00E1 m\u00E1s de 5 minutos en total. Secar con papel de cocina, servir y disfrutar!",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:06:01.765Z"
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "b628f9ac-89a4-4661-9575-21bc2327798b",
+      "Name": "Frito",
+      "NormalizedName": "frito"
+    }
+  ],
+  "Ingredients": [
+    {
+      "Id": "3963ea1d-28a1-4856-978d-a8d780680f87",
+      "Name": "Patata",
+      "NormalizedName": "patata"
+    },
+    {
+      "Id": "e23d2162-432d-401e-9f22-6394f143ce9c",
+      "Name": "Huevo",
+      "NormalizedName": "huevo"
+    },
+    {
+      "Id": "bb3fd23c-5dd4-4add-9c2b-975ad4096fc1",
+      "Name": "Harina",
+      "NormalizedName": "harina"
+    },
+    {
+      "Id": "feec5167-fff2-45b8-84c5-e738e00432ad",
+      "Name": "Pan rallado",
+      "NormalizedName": "pan rallado"
+    }
+  ]
 }
