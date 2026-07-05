@@ -645,6 +645,38 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:30:21.272Z"
+    },
+    {
+      "Id": "0c3fdbba-e8f7-44ab-a872-244be7c61476",
+      "Title": "Sopa de estrellas con huevo y parmesano",
+      "SourceUrl": "https://www.tiktok.com/@maraolmoss/video/7429307477683981601",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "65d7140c-e847-4204-a727-079971114366",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "fc7ce2f8-bfa9-4f49-b4f6-f1c3444d000a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Hacer la pasta, echarle el huevo batido, queso rallado, pimienta y la mantequilla no s\u00E9 d\u00F3nde va",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:56:11.102Z"
     }
   ],
   "Categories": [
@@ -969,6 +1001,21 @@
       "Id": "b0103e43-d074-484d-8dc1-0776e65e7217",
       "Name": "Leche",
       "NormalizedName": "leche"
+    },
+    {
+      "Id": "65d7140c-e847-4204-a727-079971114366",
+      "Name": "Pasta de estrellitas",
+      "NormalizedName": "pasta de estrellitas"
+    },
+    {
+      "Id": "fc7ce2f8-bfa9-4f49-b4f6-f1c3444d000a",
+      "Name": "Queso parmesano rallado",
+      "NormalizedName": "queso parmesano rallado"
+    },
+    {
+      "Id": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
+      "Name": "Mantequilla",
+      "NormalizedName": "mantequilla"
     }
   ]
 }
