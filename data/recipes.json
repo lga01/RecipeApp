@@ -176,6 +176,56 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:32:13.599Z"
+    },
+    {
+      "Id": "2e07c647-b5bd-4459-bd13-5178692e9e58",
+      "Title": "Pinchos de tofu",
+      "SourceUrl": "https://www.tiktok.com/@addictedtohumus/video/7272070836356500769",
+      "CategoryIds": [
+        "151b0b9e-97b2-4da2-a92f-92d18700d55e"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "20909af9-d458-4d96-9e06-6da05412247c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "415b18b8-b2c9-4c5d-b0fb-8746067cc406",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "fc4037e6-8ab5-47ec-80dc-080b0c1e3134",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "16034b12-45c6-4c48-9faa-636949013e49",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a76ece22-ccf3-4b66-9a44-b7ccbd83107d",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes:\n- 400gr tofu firme\nMarinada:\n- 1 cebolla\n- 5dientes de ajo\n- 2 cda piment\u00F3n dulce\n- 2cda piment\u00F3n picante\n- 2 cda de comino\n- 1/4 cucharadita de canela\n- 1/2 cucharadita de pimienta negra\n- 120ml de aceite de oliva\n- 2 cucharadas de zumo de lim\u00F3n\n- 1 cucharadita de sal\n- pizca de azafr\u00E1n (opcional)\n- pu\u00F1ado de cilantro fresco\n.\n1. Seca el tofu y c\u00F3rtalo en trozos (puedes congelarlo y descongelarlo)\n2. Prepara la marinada procesando todos los ingredientes\n3. En una bolsa o tupper, marina el tofu durante la noche.\n4. Poner el tofu en brochetas y fre\u00EDr en una sart\u00E9n o parrilla .",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:37:02.776Z"
     }
   ],
   "Categories": [
@@ -213,6 +263,11 @@
       "Id": "a6d2ac73-1350-45db-8dea-cf4a79ce2376",
       "Name": "Pasta",
       "NormalizedName": "pasta"
+    },
+    {
+      "Id": "151b0b9e-97b2-4da2-a92f-92d18700d55e",
+      "Name": "Pinchos",
+      "NormalizedName": "pinchos"
     }
   ],
   "Ingredients": [
@@ -295,6 +350,41 @@
       "Id": "a12b526c-ee35-4d8b-b92f-56b1a8fb9e7b",
       "Name": "Macarrones",
       "NormalizedName": "macarrones"
+    },
+    {
+      "Id": "20909af9-d458-4d96-9e06-6da05412247c",
+      "Name": "Tofu firme",
+      "NormalizedName": "tofu firme"
+    },
+    {
+      "Id": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+      "Name": "Ajo",
+      "NormalizedName": "ajo"
+    },
+    {
+      "Id": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+      "Name": "Piment\u00F3n dulce",
+      "NormalizedName": "pimenton dulce"
+    },
+    {
+      "Id": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
+      "Name": "Piment\u00F3n picante",
+      "NormalizedName": "pimenton picante"
+    },
+    {
+      "Id": "415b18b8-b2c9-4c5d-b0fb-8746067cc406",
+      "Name": "Comino",
+      "NormalizedName": "comino"
+    },
+    {
+      "Id": "fc4037e6-8ab5-47ec-80dc-080b0c1e3134",
+      "Name": "Canela",
+      "NormalizedName": "canela"
+    },
+    {
+      "Id": "a76ece22-ccf3-4b66-9a44-b7ccbd83107d",
+      "Name": "Cilantro",
+      "NormalizedName": "cilantro"
     }
   ]
 }
