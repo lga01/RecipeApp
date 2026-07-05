@@ -577,6 +577,42 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:21:10.871Z"
+    },
+    {
+      "Id": "d992eef3-179c-4f70-98f8-8861d94611a0",
+      "Title": "Patata con setas, huevo, jam\u00F3n y queso",
+      "SourceUrl": "https://www.tiktok.com/@food.nd.so/video/7347793090914045217",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "61c6ffe0-5c85-4ee0-8f49-8a672276f613",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 Se hierve la patata\n2 En una sart\u00E9n, se pocha cebolla y los champi\u00F1ones\n3 Se echa la patata cortada\n4 Se echa el huevo batido y el queso\n5 Por \u00FAltimo, los tacos de jam\u00F3n",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:26:06.966Z"
     }
   ],
   "Categories": [
@@ -881,6 +917,16 @@
       "Id": "9c5c32ea-c1af-4da3-b495-3afcd8da1d4c",
       "Name": "Salsa tsatziki",
       "NormalizedName": "salsa tsatziki"
+    },
+    {
+      "Id": "61c6ffe0-5c85-4ee0-8f49-8a672276f613",
+      "Name": "Champi\u00F1ones",
+      "NormalizedName": "champinones"
+    },
+    {
+      "Id": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+      "Name": "Jam\u00F3n ib\u00E9rico",
+      "NormalizedName": "jamon iberico"
     }
   ]
 }
