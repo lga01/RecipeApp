@@ -25,6 +25,24 @@
       "Notes": "ddddd",
       "ImageUrl": "https://www.youtube.com/watch?v=XZYusVpMWTw\u0026list=RDeU0eVJPDxoE\u0026index=4",
       "CreatedAt": "2026-07-05T16:50:27.049Z"
+    },
+    {
+      "Id": "b96caa2a-a26a-431d-93db-cb98237438ca",
+      "Title": "aaa",
+      "SourceUrl": "eee",
+      "CategoryIds": [
+        "a2deae3b-e054-4909-9bb5-b8281ee6bd72"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "fb64e79e-cb7d-42ba-84ce-e0467b218976",
+          "Quantity": "dd"
+        }
+      ],
+      "Steps": "aa",
+      "Notes": "dd",
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T16:56:30.791Z"
     }
   ],
   "Categories": [
@@ -37,6 +55,11 @@
       "Id": "d4db7885-1d85-4f14-af38-9ca55f87d10c",
       "Name": "Postre",
       "NormalizedName": "postre"
+    },
+    {
+      "Id": "a2deae3b-e054-4909-9bb5-b8281ee6bd72",
+      "Name": "dddd",
+      "NormalizedName": "dddd"
     }
   ],
   "Ingredients": [
@@ -69,6 +92,11 @@
       "Id": "3fa67d77-1f91-4704-aaaa-3389b5220104",
       "Name": "aaa1",
       "NormalizedName": "aaa1"
+    },
+    {
+      "Id": "fb64e79e-cb7d-42ba-84ce-e0467b218976",
+      "Name": "asdsa",
+      "NormalizedName": "asdsa"
     }
   ]
 }
