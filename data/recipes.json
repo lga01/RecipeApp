@@ -29,6 +29,32 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:06:01.765Z"
+    },
+    {
+      "Id": "848a433d-dafe-4036-8ba2-5c4cfe6535e2",
+      "Title": "Ensalada de patata y salm\u00F3n",
+      "SourceUrl": "https://www.tiktok.com/@hoycomemossano/video/7250453423655537946",
+      "CategoryIds": [
+        "0ad207e9-ba1f-4f71-98cf-cfe492f607db"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "40f13cb9-e673-4aa3-9afb-584e7c560a15",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        }
+      ],
+      "Steps": "\u2714\uFE0FCuezo las patatas la noche anterior y las dejo enfriando en la nevera. As\u00ED se convierten en patatas prebi\u00F3ticas (maravill para nuestra microbiota\uD83D\uDC4C). Al d\u00EDa siguiente las pelo y las troceo. \u2800\n\u2714\uFE0FLos huevos los hago 5\u2019 para que la yema quede jugosa\uD83D\uDE0B \u2800\n\u2714\uFE0FEl salm\u00F3n a la plancha y lo dejo templar antes de ponerlo en la ensalada \u2800",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:09:56.151Z"
     }
   ],
   "Categories": [
@@ -36,6 +62,11 @@
       "Id": "b628f9ac-89a4-4661-9575-21bc2327798b",
       "Name": "Frito",
       "NormalizedName": "frito"
+    },
+    {
+      "Id": "0ad207e9-ba1f-4f71-98cf-cfe492f607db",
+      "Name": "Ensalada",
+      "NormalizedName": "ensalada"
     }
   ],
   "Ingredients": [
@@ -58,6 +89,11 @@
       "Id": "feec5167-fff2-45b8-84c5-e738e00432ad",
       "Name": "Pan rallado",
       "NormalizedName": "pan rallado"
+    },
+    {
+      "Id": "40f13cb9-e673-4aa3-9afb-584e7c560a15",
+      "Name": "Salm\u00F3n fresco",
+      "NormalizedName": "salmon fresco"
     }
   ]
 }
