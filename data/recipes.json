@@ -55,6 +55,42 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:09:56.151Z"
+    },
+    {
+      "Id": "6e9911e1-8c56-47c7-a3d1-fddf20a9a2e8",
+      "Title": "Bocadillo con aguacate, at\u00FAn, huevo y queso crema",
+      "SourceUrl": "https://www.tiktok.com/@annappleadayy/video/7220393694719921414",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "2554e69a-89d1-4f00-b45b-27fcebfd78b1",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2effc7cb-e568-43c7-846c-145857f69ae8",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "16034b12-45c6-4c48-9faa-636949013e49",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "94704f90-99e5-4c86-95c9-ff13ed1b2d8e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "5ec381d5-c911-4570-87c8-8e6179fa2174",
+          "Quantity": null
+        }
+      ],
+      "Steps": "",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:11:36.745Z"
     }
   ],
   "Categories": [
@@ -94,6 +130,31 @@
       "Id": "40f13cb9-e673-4aa3-9afb-584e7c560a15",
       "Name": "Salm\u00F3n fresco",
       "NormalizedName": "salmon fresco"
+    },
+    {
+      "Id": "2554e69a-89d1-4f00-b45b-27fcebfd78b1",
+      "Name": "Aguacate",
+      "NormalizedName": "aguacate"
+    },
+    {
+      "Id": "2effc7cb-e568-43c7-846c-145857f69ae8",
+      "Name": "Queso crema",
+      "NormalizedName": "queso crema"
+    },
+    {
+      "Id": "16034b12-45c6-4c48-9faa-636949013e49",
+      "Name": "Lim\u00F3n",
+      "NormalizedName": "limon"
+    },
+    {
+      "Id": "94704f90-99e5-4c86-95c9-ff13ed1b2d8e",
+      "Name": "At\u00FAn",
+      "NormalizedName": "atun"
+    },
+    {
+      "Id": "5ec381d5-c911-4570-87c8-8e6179fa2174",
+      "Name": "Pan",
+      "NormalizedName": "pan"
     }
   ]
 }
