@@ -613,6 +613,38 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:26:06.966Z"
+    },
+    {
+      "Id": "212c79fd-40e9-466f-afd4-3d61cbe2caf5",
+      "Title": "\u00D1oquis con jam\u00F3n, salsa de queso crema y queso rallado",
+      "SourceUrl": "https://www.tiktok.com/@miguelnaarfit/video/7407518634748235040",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "61ee9b55-1a28-44f3-a71e-a59282c89f72",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2effc7cb-e568-43c7-846c-145857f69ae8",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b0103e43-d074-484d-8dc1-0776e65e7217",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Se hacen los \u00F1oquis en airfryer o hervidos\nSe hace la salsa con queso crema, chorrito de leche, ajo en polvo, perejil, sal\nSe le echa el jam\u00F3n, la salsa y queso mozzarela\nMeter a airfryer u horno a gratinar",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:30:21.272Z"
     }
   ],
   "Categories": [
@@ -927,6 +959,16 @@
       "Id": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
       "Name": "Jam\u00F3n ib\u00E9rico",
       "NormalizedName": "jamon iberico"
+    },
+    {
+      "Id": "61ee9b55-1a28-44f3-a71e-a59282c89f72",
+      "Name": "\u00D1oquis",
+      "NormalizedName": "noquis"
+    },
+    {
+      "Id": "b0103e43-d074-484d-8dc1-0776e65e7217",
+      "Name": "Leche",
+      "NormalizedName": "leche"
     }
   ]
 }
