@@ -455,6 +455,56 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:12:25.848Z"
+    },
+    {
+      "Id": "6b4beffa-d76c-4b21-98ff-2d33b290db70",
+      "Title": "Tteokbokki con papel de arroz 1",
+      "SourceUrl": "https://www.tiktok.com/@hamsikdang/video/7346677781687700754",
+      "CategoryIds": [
+        "8423c5a3-a688-4833-b538-e951ce11cb05"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "4e164940-25f7-44fe-b182-1a73a0ce988d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "232f2216-5895-4f07-9819-e1d8f8b4ad77",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6728bb89-13a1-419f-a862-11e03fd25037",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "8b0da4d9-44c4-4fd3-92b4-aa06c9c58707",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ee915c2a-9081-4235-81db-7f388216059e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "abdffb99-7350-4bb4-947c-0b2409b7d26f",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        }
+      ],
+      "Steps": "[Ingredientes]\n\n*cda=Cucharada(Tbs)\n*cdta=Cucharadita(Tsp)\n\n-130g de papel de arroz de Lidl\n(o de cualquier marca)\n-50g de puerro\n-3 lonchas de queso cheddar\n-4 salchichas\n\nSALSA\n2cdas de piment\u00F3n picante\n2cdas de az\u00FAcar\n1cda de miel\n2cdas de salsa de soja\n1 pastilla de caldo en polvo\n2cdtas de ajo picado\n\nSe hacen los tteok con el papel de arroz, se pueden rellenar de salchichas o de queso cheddar o mozzarella.\nSe hace la salsa con las especias\nEn una sart\u00E9n, se incorpora agua, la salsa, puerro, un poco de salchichas y hervimos todo, una vez hervida se a\u00F1ade el tteok hasta que espese la salsa",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:14:10.729Z"
     }
   ],
   "Categories": [
@@ -502,6 +552,11 @@
       "Id": "99f7a0b5-5cdd-4129-8ebc-34786c375c18",
       "Name": "Horno",
       "NormalizedName": "horno"
+    },
+    {
+      "Id": "8423c5a3-a688-4833-b538-e951ce11cb05",
+      "Name": "Coreano",
+      "NormalizedName": "coreano"
     }
   ],
   "Ingredients": [
@@ -689,6 +744,36 @@
       "Id": "787a571f-f12a-4a8b-a92a-35799c05fdb6",
       "Name": "Sal",
       "NormalizedName": "sal"
+    },
+    {
+      "Id": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+      "Name": "Papel de arroz",
+      "NormalizedName": "papel de arroz"
+    },
+    {
+      "Id": "4e164940-25f7-44fe-b182-1a73a0ce988d",
+      "Name": "Puerro",
+      "NormalizedName": "puerro"
+    },
+    {
+      "Id": "232f2216-5895-4f07-9819-e1d8f8b4ad77",
+      "Name": "Salchichas",
+      "NormalizedName": "salchichas"
+    },
+    {
+      "Id": "6728bb89-13a1-419f-a862-11e03fd25037",
+      "Name": "Az\u00FAcar",
+      "NormalizedName": "azucar"
+    },
+    {
+      "Id": "8b0da4d9-44c4-4fd3-92b4-aa06c9c58707",
+      "Name": "Miel",
+      "NormalizedName": "miel"
+    },
+    {
+      "Id": "abdffb99-7350-4bb4-947c-0b2409b7d26f",
+      "Name": "Caldo en polvo",
+      "NormalizedName": "caldo en polvo"
     }
   ]
 }
