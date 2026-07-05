@@ -299,6 +299,50 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:54:26.945Z"
+    },
+    {
+      "Id": "2f2516f4-d2f0-4d68-bf6d-06ebb814fd2d",
+      "Title": "Pollo estilo capresse con mozzarella y berenjena o calabac\u00EDn",
+      "SourceUrl": "https://www.tiktok.com/@myrealfood/video/7329617997595774240",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "70d4a0e5-3065-4ef4-b59e-e7c631645a90",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "76d58dea-b769-4c1f-ad1e-a62ba2ed5e10",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "c04513c0-38e8-4d33-b4cd-d0bfbe35b5bc",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3264cf89-7262-450f-a5bf-7e99c5309fb7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ac691f60-3e36-440d-90f8-e85ae33d47ad",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 Coges los filetes de pechuga y les haces unos cortes en uno de sus lados\n2 Mezclas las especias con sal y le echas un poco de aceite de oliva\n3 Untas las pechugas por ambos lados\n4 Introduces en los cortes rodajas de queso y rodajas de calabac\u00EDn o berenjena\n5 Al horno 150 grados una media hora o as\u00ED, tiempo y temperatura a revisar",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:03:18.842Z"
     }
   ],
   "Categories": [
@@ -473,6 +517,41 @@
       "Id": "7e49b8b4-50b6-4959-bdc5-b71aa06f7ba6",
       "Name": "Mostaza",
       "NormalizedName": "mostaza"
+    },
+    {
+      "Id": "70d4a0e5-3065-4ef4-b59e-e7c631645a90",
+      "Name": "Queso mozzarella entero",
+      "NormalizedName": "queso mozzarella entero"
+    },
+    {
+      "Id": "76d58dea-b769-4c1f-ad1e-a62ba2ed5e10",
+      "Name": "Calabac\u00EDn",
+      "NormalizedName": "calabacin"
+    },
+    {
+      "Id": "c04513c0-38e8-4d33-b4cd-d0bfbe35b5bc",
+      "Name": "Berenjena",
+      "NormalizedName": "berenjena"
+    },
+    {
+      "Id": "3264cf89-7262-450f-a5bf-7e99c5309fb7",
+      "Name": "Or\u00E9gano",
+      "NormalizedName": "oregano"
+    },
+    {
+      "Id": "ac691f60-3e36-440d-90f8-e85ae33d47ad",
+      "Name": "Albahaca",
+      "NormalizedName": "albahaca"
+    },
+    {
+      "Id": "62234bf3-a261-4950-ac35-f5fd78735aff",
+      "Name": "Ajo en polvo",
+      "NormalizedName": "ajo en polvo"
+    },
+    {
+      "Id": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+      "Name": "Pimienta",
+      "NormalizedName": "pimienta"
     }
   ]
 }
