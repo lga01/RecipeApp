@@ -677,6 +677,74 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:56:11.102Z"
+    },
+    {
+      "Id": "df023a63-eea7-48f8-8bb4-caceee9c93d4",
+      "Title": "Hamburger helper",
+      "SourceUrl": "https://www.tiktok.com/@dvarjak/video/7472806043609763094",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "4c8cc300-fd24-4be5-b161-087205f4491b",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3fc4a1a3-9bce-4a68-b3a8-a8d6b1989d05",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "61b66c7c-e113-41c8-a357-bbfa482b23cd",
+          "Quantity": "Opcional"
+        },
+        {
+          "IngredientId": "3264cf89-7262-450f-a5bf-7e99c5309fb7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "787a571f-f12a-4a8b-a92a-35799c05fdb6",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03644f68-40be-4211-9405-6efcca53a85b",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b0103e43-d074-484d-8dc1-0776e65e7217",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6f6fa5d9-4a62-4fd0-b5c1-4493f2f5f01f",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "bb3fd23c-5dd4-4add-9c2b-975ad4096fc1",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
+          "Quantity": "O aceite"
+        }
+      ],
+      "Steps": "Ingredientes:\n\n\u2705 250 g de pasta corta (macarrones, codos o fusilli)\n\u2705 500 g de carne molida de ternera o cerdo\n\u2705 1 cebolla picada\n\u2705 2 dientes de ajo picados\n\u2705 1 cucharadita de piment\u00F3n dulce\n\u2705 1 cucharadita de mostaza en polvo (opcional)\n\u2705 \u00BD cucharadita de or\u00E9gano\n\u2705 \u00BD cucharadita de pimienta negra\n\u2705 1 cucharadita de sal\n\u2705 500 ml de caldo de carne\n\u2705 250 ml de leche\n\u2705 200 g de queso cheddar rallado\n\u2705 2 cucharadas de harina (para espesar la salsa)\n\u2705 2 cucharadas de mantequilla o aceite\n\nInstrucciones:\n\n1\uFE0F\u20E3 Dorar la carne: En una sart\u00E9n grande a fuego medio, derrite la mantequilla y sofr\u00EDe la cebolla y el ajo hasta que est\u00E9n tiernos. Agrega la carne molida y cocina hasta que est\u00E9 dorada.\n\n2\uFE0F\u20E3 Agregar los condimentos: A\u00F1ade la sal, pimienta, piment\u00F3n, mostaza en polvo y or\u00E9gano. Mezcla bien.\n\n3\uFE0F\u20E3 Incorporar la harina: Espolvorea la harina sobre la carne cocida y revuelve para que se absorba. Esto ayudar\u00E1 a espesar la salsa.\n\n4\uFE0F\u20E3 Cocinar la pasta: Vierte el caldo de carne y la leche en la sart\u00E9n. Agrega la pasta cruda y mezcla. Cocina a fuego medio-bajo, removiendo ocasionalmente, hasta que la pasta est\u00E9 cocida y haya absorbido la mayor parte del l\u00EDquido (unos 12-15 minutos).\n\n5\uFE0F\u20E3 A\u00F1adir el queso: Cuando la pasta est\u00E9 lista, incorpora el queso rallado y mezcla hasta que se derrita y la salsa se vuelva cremosa.\n\n6\uFE0F\u20E3 Servir: Deja reposar un par de minutos y sirve caliente.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T22:04:33.787Z"
     }
   ],
   "Categories": [
@@ -1016,6 +1084,31 @@
       "Id": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
       "Name": "Mantequilla",
       "NormalizedName": "mantequilla"
+    },
+    {
+      "Id": "4c8cc300-fd24-4be5-b161-087205f4491b",
+      "Name": "Pasta corta",
+      "NormalizedName": "pasta corta"
+    },
+    {
+      "Id": "3fc4a1a3-9bce-4a68-b3a8-a8d6b1989d05",
+      "Name": "Carne picada de ternera",
+      "NormalizedName": "carne picada de ternera"
+    },
+    {
+      "Id": "61b66c7c-e113-41c8-a357-bbfa482b23cd",
+      "Name": "Mostaza en polvo",
+      "NormalizedName": "mostaza en polvo"
+    },
+    {
+      "Id": "03644f68-40be-4211-9405-6efcca53a85b",
+      "Name": "Caldo de carne",
+      "NormalizedName": "caldo de carne"
+    },
+    {
+      "Id": "6f6fa5d9-4a62-4fd0-b5c1-4493f2f5f01f",
+      "Name": "Queso cheddar rallado",
+      "NormalizedName": "queso cheddar rallado"
     }
   ]
 }
