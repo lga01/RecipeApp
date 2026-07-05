@@ -91,6 +91,40 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:11:36.745Z"
+    },
+    {
+      "Id": "62aaac3e-4f3f-4281-a2cb-879c02336026",
+      "Title": "Burrito de pollo, guacamole y queso",
+      "SourceUrl": "https://www.tiktok.com/@lakmontes/video/7263498818468023558",
+      "CategoryIds": [
+        "7d600b22-bf4c-4868-b45f-19e7cb738768"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2554e69a-89d1-4f00-b45b-27fcebfd78b1",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "aedba767-1f5b-4cac-8db2-bf6dce60bcb3",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 Pechuga en trozos o tiras, se hace en la sart\u00E9n\n2 En una tortita, se a\u00F1ade aguacate con la cebolla, como si fuera guacamole, el pollo y queso rallado\n3 Se pasa por la sart\u00E9n el burrito",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:19:36.953Z"
     }
   ],
   "Categories": [
@@ -103,6 +137,11 @@
       "Id": "0ad207e9-ba1f-4f71-98cf-cfe492f607db",
       "Name": "Ensalada",
       "NormalizedName": "ensalada"
+    },
+    {
+      "Id": "7d600b22-bf4c-4868-b45f-19e7cb738768",
+      "Name": "Burrito",
+      "NormalizedName": "burrito"
     }
   ],
   "Ingredients": [
@@ -155,6 +194,26 @@
       "Id": "5ec381d5-c911-4570-87c8-8e6179fa2174",
       "Name": "Pan",
       "NormalizedName": "pan"
+    },
+    {
+      "Id": "03684a6f-e0df-4f55-b352-904a8545fe92",
+      "Name": "Pechuga pollo",
+      "NormalizedName": "pechuga pollo"
+    },
+    {
+      "Id": "dff88024-4e25-40a5-b6f8-ae020b649871",
+      "Name": "Cebolla",
+      "NormalizedName": "cebolla"
+    },
+    {
+      "Id": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+      "Name": "Queso mozzarella rallado",
+      "NormalizedName": "queso mozzarella rallado"
+    },
+    {
+      "Id": "aedba767-1f5b-4cac-8db2-bf6dce60bcb3",
+      "Name": "Tortita de fajita",
+      "NormalizedName": "tortita de fajita"
     }
   ]
 }
