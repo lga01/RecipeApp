@@ -95,19 +95,6 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T17:02:43.381Z"
-    },
-    {
-      "Id": "d3c54525-1808-42cb-a1a0-3313198ed6a6",
-      "Title": "a",
-      "SourceUrl": "d",
-      "CategoryIds": [
-        "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b"
-      ],
-      "Ingredients": [],
-      "Steps": "",
-      "Notes": null,
-      "ImageUrl": "https://raw.githubusercontent.com/lga01/RecipeApp/main/images/receta.Id.jpg",
-      "CreatedAt": "2026-07-05T17:02:58.054Z"
     }
   ],
   "Categories": [
