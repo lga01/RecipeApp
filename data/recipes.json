@@ -127,6 +127,29 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:11:36.745Z"
+    },
+    {
+      "Id": "966f6f30-6487-45f3-bb81-cb56c4a9d1df",
+      "Title": "Patatas pillow",
+      "SourceUrl": "https://www.tiktok.com/@recetasparaserfeliz/video/7257977107563793690",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4",
+        "f86d6d44-1700-4d28-84f3-f20fe4fa1e7d"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "08d4c210-b493-4742-bbef-9719ae76a35e",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes:\n4 patatas medianas\nDos cucharadas soperas de almid\u00F3n de ma\u00EDz\nUna cucharadita de ajo en polvo\nUna cucharadita de perejil fresco o seco\nAceite de oliva\n\nPara la salsa:\n3 cucharadas soperas de queso fresco batido/ yogur griego\nUna cucharada sopera de mostaza\nUna cucharadita de ajo en polvo\nUna cucharadita de perejil seco\n\nElaboraci\u00F3n:\nPela y lava las patatas. C\u00F3rtalas en dados y cu\u00E9celas en abundante agua hasta que est\u00E9n tiernas.\n\nDeja que templen.\n\nEn un bol, a\u00F1ade las patatas, el ajo, perejil y maicena.\nMezcla con la ayuda de un tenedor hasta que tengas una masa lisa.\n\nHaz un rollito con un poco de masa, corta en porciones y chafa un poquito con un tenedor cada trozo. Tendr\u00E1s masa para repetir \uD83D\uDE03\n\nPon los trocitos en tu airfryer y, roc\u00EDa un poco de aceite de oliva por encima para que doren.\n\nCocina sin precalentar 20 minutos a 200 grados. Vigila por si necesitasen m\u00E1s o menos tiempo \uD83D\uDE03 repite con el resto de masa!\n\nPara la salsa s\u00F3lo hay que mezclar todos los ingredientes y dejar que repose una horita en la nevera, puedes prepararla Antes de preparar las patatas \uD83E\uDD2D",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:30:03.575Z"
     }
   ],
   "Categories": [
@@ -149,6 +172,16 @@
       "Id": "b059eedb-fbff-43ea-9bc4-61df755279ff",
       "Name": "Bocadillo",
       "NormalizedName": "bocadillo"
+    },
+    {
+      "Id": "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4",
+      "Name": "Airfryer",
+      "NormalizedName": "airfryer"
+    },
+    {
+      "Id": "f86d6d44-1700-4d28-84f3-f20fe4fa1e7d",
+      "Name": "Aperitivo",
+      "NormalizedName": "aperitivo"
     }
   ],
   "Ingredients": [
@@ -221,6 +254,11 @@
       "Id": "aedba767-1f5b-4cac-8db2-bf6dce60bcb3",
       "Name": "Tortita de fajita",
       "NormalizedName": "tortita de fajita"
+    },
+    {
+      "Id": "08d4c210-b493-4742-bbef-9719ae76a35e",
+      "Name": "Almid\u00F3n de ma\u00EDz",
+      "NormalizedName": "almidon de maiz"
     }
   ]
 }
