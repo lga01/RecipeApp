@@ -56,19 +56,6 @@
       "Notes": "a",
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T17:02:08.52Z"
-    },
-    {
-      "Id": "8ffb237b-2cee-4770-9e97-bf9234ef36c1",
-      "Title": "aaa3",
-      "SourceUrl": "dasd",
-      "CategoryIds": [
-        "cbcef653-8193-42f4-95d7-2ee8202a9e3b"
-      ],
-      "Ingredients": [],
-      "Steps": "as",
-      "Notes": "s",
-      "ImageUrl": null,
-      "CreatedAt": "2026-07-05T17:02:22.002Z"
     }
   ],
   "Categories": [
