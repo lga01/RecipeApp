@@ -269,6 +269,36 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:40:23.775Z"
+    },
+    {
+      "Id": "400e0c86-c91c-4c0d-ae7d-c154635855cd",
+      "Title": "Patatas con at\u00FAn y queso rallado airfryer",
+      "SourceUrl": "https://www.tiktok.com/@beradiazr/photo/7325576060383300896",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "94704f90-99e5-4c86-95c9-ff13ed1b2d8e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Se hace la patata como para pur\u00E9, se mezcla el at\u00FAn, el huevo, el queso rallado, perejil, paprika, ajo y sal, se hacen bolitas y se aplastan un poco, airfryer 180 grados 10 min cada lado, salsa de yogur griego y sriracha para acompa\u00F1ar",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:54:26.945Z"
     }
   ],
   "Categories": [
