@@ -150,6 +150,32 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:30:03.575Z"
+    },
+    {
+      "Id": "f29c4cb4-da42-4eea-9b3d-c0178ba69391",
+      "Title": "Macarrones con huevo y queso rallado",
+      "SourceUrl": "https://www.tiktok.com/@cocinaconmilagro/video/7262334107483491626",
+      "CategoryIds": [
+        "a6d2ac73-1350-45db-8dea-cf4a79ce2376"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "a12b526c-ee35-4d8b-b92f-56b1a8fb9e7b",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 Hacer los macarrones\n2 Batir 3 huevos con sal, ajo en polvo, pimienta\n3 Poner los macarrones en una sart\u00E9n, echar el huevo y dejar que se cocine, por encima echar el queso rallado y dejar que gratine",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:32:13.599Z"
     }
   ],
   "Categories": [
@@ -182,6 +208,11 @@
       "Id": "f86d6d44-1700-4d28-84f3-f20fe4fa1e7d",
       "Name": "Aperitivo",
       "NormalizedName": "aperitivo"
+    },
+    {
+      "Id": "a6d2ac73-1350-45db-8dea-cf4a79ce2376",
+      "Name": "Pasta",
+      "NormalizedName": "pasta"
     }
   ],
   "Ingredients": [
@@ -259,6 +290,11 @@
       "Id": "08d4c210-b493-4742-bbef-9719ae76a35e",
       "Name": "Almid\u00F3n de ma\u00EDz",
       "NormalizedName": "almidon de maiz"
+    },
+    {
+      "Id": "a12b526c-ee35-4d8b-b92f-56b1a8fb9e7b",
+      "Name": "Macarrones",
+      "NormalizedName": "macarrones"
     }
   ]
 }
