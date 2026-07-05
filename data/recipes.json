@@ -1,0 +1,39 @@
+{
+  "Recipes": [
+    {
+      "Id": "64dbd0d3-dd32-40d0-85cb-72d7dfaf98ca",
+      "Title": "Tortilla de prueba 17:57:33",
+      "SourceUrl": null,
+      "CategoryIds": [
+        "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b"
+      ],
+      "IngredientIds": [
+        "c77bc2ed-5fce-420d-bcea-9dd5c679682b",
+        "ea647afc-2bab-4876-a132-7c47ffbc0d0f"
+      ],
+      "Steps": "Batir huevos, fre\u00EDr patata, mezclar y cuajar.",
+      "Notes": null,
+      "CreatedAt": "2026-07-05T15:57:33.824Z",
+      "ImageUrl": null
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "c22d35f0-431b-4c9b-a2b4-82ece4a6c40b",
+      "Name": "Cena",
+      "NormalizedName": "cena"
+    }
+  ],
+  "Ingredients": [
+    {
+      "Id": "c77bc2ed-5fce-420d-bcea-9dd5c679682b",
+      "Name": "Huevo",
+      "NormalizedName": "huevo"
+    },
+    {
+      "Id": "ea647afc-2bab-4876-a132-7c47ffbc0d0f",
+      "Name": "Patata",
+      "NormalizedName": "patata"
+    }
+  ]
+}
