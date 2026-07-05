@@ -226,6 +226,49 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T20:37:02.776Z"
+    },
+    {
+      "Id": "5207863a-ab0c-45ca-bcb2-bda54fddf94e",
+      "Title": "Nuggets de tofu",
+      "SourceUrl": "https://www.tiktok.com/@soyvelen/video/7270519454730030342",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4",
+        "99f7a0b5-5cdd-4129-8ebc-34786c375c18"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "20909af9-d458-4d96-9e06-6da05412247c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "08d4c210-b493-4742-bbef-9719ae76a35e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ee915c2a-9081-4235-81db-7f388216059e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "feec5167-fff2-45b8-84c5-e738e00432ad",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "7e49b8b4-50b6-4959-bdc5-b71aa06f7ba6",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 Opcional, congelar el tofu antes para que sea m\u00E1s firme\n2 Hacer el tofu en trozos para nuggets\n3 Rebozarlos en el almid\u00F3n\n4 Marinarlo con las especias y salsas, dejar reposar con el marinado opcional\n5 Rebozar con pan rallado o algo del estilo (harina de arroz, harina de garbanzos y condimentos )\n6 En la airfryer, 15/20 minutos",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T20:40:23.775Z"
     }
   ],
   "Categories": [
@@ -268,6 +311,11 @@
       "Id": "151b0b9e-97b2-4da2-a92f-92d18700d55e",
       "Name": "Pinchos",
       "NormalizedName": "pinchos"
+    },
+    {
+      "Id": "99f7a0b5-5cdd-4129-8ebc-34786c375c18",
+      "Name": "Horno",
+      "NormalizedName": "horno"
     }
   ],
   "Ingredients": [
@@ -385,6 +433,16 @@
       "Id": "a76ece22-ccf3-4b66-9a44-b7ccbd83107d",
       "Name": "Cilantro",
       "NormalizedName": "cilantro"
+    },
+    {
+      "Id": "ee915c2a-9081-4235-81db-7f388216059e",
+      "Name": "Salsa de soja",
+      "NormalizedName": "salsa de soja"
+    },
+    {
+      "Id": "7e49b8b4-50b6-4959-bdc5-b71aa06f7ba6",
+      "Name": "Mostaza",
+      "NormalizedName": "mostaza"
     }
   ]
 }
