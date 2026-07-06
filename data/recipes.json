@@ -1005,6 +1005,40 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T20:43:37.158Z"
+    },
+    {
+      "Id": "61989dc0-26e0-480a-bf06-77c077ebc017",
+      "Title": "Cheesecake de queso cottage",
+      "SourceUrl": "https://www.tiktok.com/@miguelnaarfit/video/7624977645347835138",
+      "CategoryIds": [
+        "0dbb4984-cb57-441f-8668-214b8b601cfe"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "4c05e2de-0f46-497a-a700-66221b78cdfb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2effc7cb-e568-43c7-846c-145857f69ae8",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ea3b8183-fbb9-4178-82ee-1e6a599aea98",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "175ab655-9e16-4964-bfa5-875235e9652d",
+          "Quantity": null
+        }
+      ],
+      "Steps": "125 gr queso cottage\n100 gr queso crema\n2 huevos\nUna cucharada m\u00E1s o menos de maicena\nEdulzante al gusto\n\nSe mezcla todo, se pone en un recipiente y al micro 3 minutos. A\u00F1adir mermelada.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T20:46:23.662Z"
     }
   ],
   "Categories": [
@@ -1454,6 +1488,16 @@
       "Id": "4c05e2de-0f46-497a-a700-66221b78cdfb",
       "Name": "Queso cottage",
       "NormalizedName": "queso cottage"
+    },
+    {
+      "Id": "ea3b8183-fbb9-4178-82ee-1e6a599aea98",
+      "Name": "Endulzante",
+      "NormalizedName": "endulzante"
+    },
+    {
+      "Id": "175ab655-9e16-4964-bfa5-875235e9652d",
+      "Name": "Maicena",
+      "NormalizedName": "maicena"
     }
   ]
 }
