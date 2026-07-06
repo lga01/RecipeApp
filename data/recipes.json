@@ -983,6 +983,28 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T20:38:49.736Z"
+    },
+    {
+      "Id": "01c83154-eef3-4c28-be46-beb0c9c10e3b",
+      "Title": "Crepes de queso cottage",
+      "SourceUrl": "https://www.tiktok.com/@miguelnaarfit/video/7624977645347835138",
+      "CategoryIds": [
+        "0dbb4984-cb57-441f-8668-214b8b601cfe"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "4c05e2de-0f46-497a-a700-66221b78cdfb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Batir juntos 100gr de queso cottage con 3 huevos. Hacer en una sart\u00E9n con forma de crepe. Rellenar con toppings a elegir, como jam\u00F3n y queso.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T20:43:37.158Z"
     }
   ],
   "Categories": [
@@ -1060,6 +1082,11 @@
       "Id": "7b9a6e3b-527b-4ccc-81d3-b54d008566b0",
       "Name": "Asi\u00E1tico",
       "NormalizedName": "asiatico"
+    },
+    {
+      "Id": "0dbb4984-cb57-441f-8668-214b8b601cfe",
+      "Name": "Desayuno",
+      "NormalizedName": "desayuno"
     }
   ],
   "Ingredients": [
@@ -1422,6 +1449,11 @@
       "Id": "f4df41fc-8f34-4105-a754-e29d1a082d09",
       "Name": "Cebolleta",
       "NormalizedName": "cebolleta"
+    },
+    {
+      "Id": "4c05e2de-0f46-497a-a700-66221b78cdfb",
+      "Name": "Queso cottage",
+      "NormalizedName": "queso cottage"
     }
   ]
 }
