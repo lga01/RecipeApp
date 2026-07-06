@@ -921,6 +921,44 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T20:25:56.676Z"
+    },
+    {
+      "Id": "e6f52418-dd46-48f3-9db3-6079b938bea4",
+      "Title": "Onigiri de mantequilla y soja",
+      "SourceUrl": "https://www.tiktok.com/@atu_meshi/video/7627779705113955591",
+      "CategoryIds": [
+        "7b9a6e3b-527b-4ccc-81d3-b54d008566b0"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "b47443ed-8512-4d13-a5ef-a2befd8bf7f7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ee915c2a-9081-4235-81db-7f388216059e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ba9db12f-d2d7-49e2-91be-cdcf4e68e60d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "d9706cb9-831d-4364-8d67-4320d143aeb0",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "f4df41fc-8f34-4105-a754-e29d1a082d09",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Rich Butter Soy Grilled Onigiri\n\nIngredients (2 servings)\n\u30FBCooked rice (leftover) \u2026 250g\n\u30FBSoy sauce \u2026 1 tbsp\n\u30FBSalted butter \u2026 10g (\u002B 5g for cooking)\n\u30FBPotato starch \u2026 1.5 tsp\n\u30FBWhite sesame seeds \u2026 1 tsp\n\u30FBChopped green onions \u2026 a little\n\n\u2E3B\n\nInstructions\n\n\u2460 Mix \u0026 Shape\nAdd soy sauce, 10g butter, potato starch, and sesame seeds to the rice.\nMix well until evenly combined.\nShape into slightly flat onigiri using plastic wrap.\n\n\u2E3B\n\n\u2461 Cook\nHeat 5g butter in a pan and place the onigiri.\nCook over medium to low heat until both sides are golden brown.\n\u203BDo not move too much\u2014let them form a crust.\n\n\u2E3B\n\n\u2462 Finish\nLightly brush with soy sauce and cook until fragrant.\n\n\u2E3B\n\n\uD83D\uDD25Tips\n\u30FBFlatten slightly = easier to cook evenly\n\u30FBDon\u2019t touch too much = crispy outside",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T20:31:16.945Z"
     }
   ],
   "Categories": [
@@ -993,6 +1031,11 @@
       "Id": "aa25efa5-dfbf-4e34-8c3c-d4fa744c5895",
       "Name": "R\u00E1pida",
       "NormalizedName": "rapida"
+    },
+    {
+      "Id": "7b9a6e3b-527b-4ccc-81d3-b54d008566b0",
+      "Name": "Asi\u00E1tico",
+      "NormalizedName": "asiatico"
     }
   ],
   "Ingredients": [
@@ -1335,6 +1378,26 @@
       "Id": "d1bffc04-c144-47c9-a207-a62f5bba7f93",
       "Name": "Romero",
       "NormalizedName": "romero"
+    },
+    {
+      "Id": "b47443ed-8512-4d13-a5ef-a2befd8bf7f7",
+      "Name": "Arroz",
+      "NormalizedName": "arroz"
+    },
+    {
+      "Id": "ba9db12f-d2d7-49e2-91be-cdcf4e68e60d",
+      "Name": "Almid\u00F3n de patata",
+      "NormalizedName": "almidon de patata"
+    },
+    {
+      "Id": "d9706cb9-831d-4364-8d67-4320d143aeb0",
+      "Name": "Semillas de s\u00E9samo",
+      "NormalizedName": "semillas de sesamo"
+    },
+    {
+      "Id": "f4df41fc-8f34-4105-a754-e29d1a082d09",
+      "Name": "Cebolleta",
+      "NormalizedName": "cebolleta"
     }
   ]
 }
