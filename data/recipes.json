@@ -745,6 +745,36 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T22:04:33.787Z"
+    },
+    {
+      "Id": "5bef9c2f-db94-4a13-abc7-de7ec63499a2",
+      "Title": "Palomitas de pollo y zanahoria",
+      "SourceUrl": "https://www.tiktok.com/@maydenyt/video/7501271495792987414",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3a1c800c-3540-4b93-9020-981a72ac5e42",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes\n\u25CF2 zanahorias\n\u25CF180g de pechuga de pollo\n\u25CF1 huevo\n\u25CF30g de queso rallado\n\u25CFSal, especias y AOVE en spray\n\n\uD83D\uDD25Pasos\n\u25CFEn una picadora echa zanahoria, el pollo, el huevo, el queso y la sal\n\u25CFDale al molinillo hasta hacer una pasta\n\u25CFAhora darle forma de bolitas con las manos\n\u25CFPonlas en el airfryer con un poco de AOVE en Spray\n\u25CFCoc\u00EDnalas 15 minutos a 180\u00BA",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T13:37:20.021Z"
     }
   ],
   "Categories": [
@@ -1109,6 +1139,11 @@
       "Id": "6f6fa5d9-4a62-4fd0-b5c1-4493f2f5f01f",
       "Name": "Queso cheddar rallado",
       "NormalizedName": "queso cheddar rallado"
+    },
+    {
+      "Id": "3a1c800c-3540-4b93-9020-981a72ac5e42",
+      "Name": "Zanahoria",
+      "NormalizedName": "zanahoria"
     }
   ]
 }
