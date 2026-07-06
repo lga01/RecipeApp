@@ -385,50 +385,6 @@
       "CreatedAt": "2026-07-05T21:09:57.302Z"
     },
     {
-      "Id": "dfd6de69-4b27-4bc6-9af7-93e95b0b146a",
-      "Title": "Pollo marinado mexicano",
-      "SourceUrl": "https://www.tiktok.com/@nutrisinexcusas/video/7328114694890327328",
-      "CategoryIds": [],
-      "Ingredients": [
-        {
-          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "415b18b8-b2c9-4c5d-b0fb-8746067cc406",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "fc4037e6-8ab5-47ec-80dc-080b0c1e3134",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "ba89e32c-b3b9-470a-8664-ca3d4d9865ff",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
-          "Quantity": null
-        },
-        {
-          "IngredientId": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
-          "Quantity": null
-        }
-      ],
-      "Steps": "Mezclar todo \u002B sal con el pollo",
-      "Notes": null,
-      "ImageUrl": null,
-      "CreatedAt": "2026-07-05T21:11:16.339Z"
-    },
-    {
       "Id": "d756c48c-0889-4e8a-aa3a-07869cf370cc",
       "Title": "Pollo marinado indio",
       "SourceUrl": "https://www.tiktok.com/@nutrisinexcusas/video/7328114694890327328",
@@ -1039,6 +995,54 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T20:46:23.662Z"
+    },
+    {
+      "Id": "dfd6de69-4b27-4bc6-9af7-93e95b0b146a",
+      "Title": "Pollo marinado mexicano",
+      "SourceUrl": "https://www.tiktok.com/@nutrisinexcusas/video/7328114694890327328",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "415b18b8-b2c9-4c5d-b0fb-8746067cc406",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "fc4037e6-8ab5-47ec-80dc-080b0c1e3134",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ba89e32c-b3b9-470a-8664-ca3d4d9865ff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Mezclar todo \u002B sal con el pollo",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-05T21:11:16.339Z"
     }
   ],
   "Categories": [
