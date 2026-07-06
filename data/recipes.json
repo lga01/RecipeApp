@@ -816,6 +816,42 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:30:21.272Z"
+    },
+    {
+      "Id": "a25d24ea-e419-4b0b-979a-996ccecf2f8a",
+      "Title": "Dados de patatas y pollo con queso",
+      "SourceUrl": "https://www.tiktok.com/@gastrofittoni/photo/7488060058593496342",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "70425ab4-5e4f-421c-9ecc-539aa0cf3644",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "92d3f178-6cf2-48e8-91b2-a7dd16af7035",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Comida para dos personas\nIngredientes:\n1 vaso de caldo de pollo\n2 pechugas de pollo\n1/2 cebolla\n2 patatas medianas\nQueso rallado\nNata para cocinar\nCortamos a daditos el pollo, la patata y la cebolla, se fr\u00EDen las patatas, se sofr\u00EDen el pollo y la cebolla, se junta todo en la sart\u00E9n y se le echa el caldo de pollo, un poco de nata para cocinar y el queso rallado",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T19:58:38.358Z"
     }
   ],
   "Categories": [
@@ -1210,6 +1246,16 @@
       "Id": "567ba93f-5779-468e-9ece-757fbeb8c207",
       "Name": "Pepitas chocolate",
       "NormalizedName": "pepitas chocolate"
+    },
+    {
+      "Id": "70425ab4-5e4f-421c-9ecc-539aa0cf3644",
+      "Name": "Caldo de pollo",
+      "NormalizedName": "caldo de pollo"
+    },
+    {
+      "Id": "92d3f178-6cf2-48e8-91b2-a7dd16af7035",
+      "Name": "Nata cocinar",
+      "NormalizedName": "nata cocinar"
     }
   ]
 }
