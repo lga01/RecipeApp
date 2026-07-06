@@ -857,7 +857,10 @@
       "Id": "479b57cc-835a-4efd-8d8c-925f31b85162",
       "Title": "Nidos de patata y huevo",
       "SourceUrl": "https://www.tiktok.com/@petit_fit/video/7600760699559726358",
-      "CategoryIds": [],
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4",
+        "99f7a0b5-5cdd-4129-8ebc-34786c375c18"
+      ],
       "Ingredients": [
         {
           "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
