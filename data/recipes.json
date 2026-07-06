@@ -959,6 +959,30 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T20:31:16.945Z"
+    },
+    {
+      "Id": "2a3678d5-00a0-42c6-b7ec-35587172dc47",
+      "Title": "Tortilla con patata y queso",
+      "SourceUrl": "https://www.tiktok.com/@petit_fit/video/7638959234239057174",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 Batir los huevos con sal y pimienta\n2 Pelar la patata y sacar l\u00E1minas finas con el cortador\n3 En la sart\u00E9n hacer las l\u00E1minas, cuando se doren a\u00F1adir los huevos\n4 Cuando empiece a cuajar la tortilla, echar el queso rallado y doblar la tortilla",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T20:38:49.736Z"
     }
   ],
   "Categories": [
