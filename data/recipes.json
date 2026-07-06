@@ -879,6 +879,48 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T20:20:41.207Z"
+    },
+    {
+      "Id": "34565e0b-3351-4858-a80a-a8a5dfe4f38b",
+      "Title": "Patatas con pollo y queso parmesano al airfryer/horno",
+      "SourceUrl": "https://www.tiktok.com/@coleccionando.sabores/video/7615357636652895510",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "fc7ce2f8-bfa9-4f49-b4f6-f1c3444d000a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "82716bb8-1125-4bc0-a0d9-1e66a7801e1d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3264cf89-7262-450f-a5bf-7e99c5309fb7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "d1bffc04-c144-47c9-a207-a62f5bba7f93",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes para 2 personas:\n\uD83D\uDD382 patatas\n\uD83D\uDD384 contra muslos de pollo, deshuesado y sin piel (puedes usar pechuga, pero el contra muslo queda m\u00E1s jugoso)\n\uD83D\uDD383 cucharadas de parmesano\n\uD83D\uDD381 cucharadita de perejil\n\uD83D\uDD381 cucharadita de or\u00E9gano\n\uD83D\uDD381 cucharadita de piment\u00F3n dulce\n\uD83D\uDD381 cucharadita de romero\n\uD83D\uDD38Sal\n\uD83D\uDD38Aceite\n\nEmpezamos pelando y cortando las patatas y el pollo.\nLo pasamos todo a un bol y a\u00F1adimos aceite, sal, romero, or\u00E9gano y piment\u00F3n dulce. Mezclamos bien.\nAhora a\u00F1adimos el perejil seco con el parmesano y removemos otra vez para que se impregnen bien todas las patatas y el pollo.\nLo ponemos en el cesto de la freidora de aire y a\u00F1adimos por encima un poco m\u00E1s de parmesano.\nCocinamos 18 minutos a 195 grados.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-06T20:25:56.676Z"
     }
   ],
   "Categories": [
@@ -1283,6 +1325,16 @@
       "Id": "92d3f178-6cf2-48e8-91b2-a7dd16af7035",
       "Name": "Nata cocinar",
       "NormalizedName": "nata cocinar"
+    },
+    {
+      "Id": "82716bb8-1125-4bc0-a0d9-1e66a7801e1d",
+      "Name": "Perejil",
+      "NormalizedName": "perejil"
+    },
+    {
+      "Id": "d1bffc04-c144-47c9-a207-a62f5bba7f93",
+      "Name": "Romero",
+      "NormalizedName": "romero"
     }
   ]
 }
