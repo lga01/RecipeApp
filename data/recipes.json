@@ -775,6 +775,45 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-06T13:37:20.021Z"
+    },
+    {
+      "Id": "eba822ab-7657-4da8-9e12-e7d38f7e56ed",
+      "Title": "Pastel de chocolate y galleta",
+      "SourceUrl": "https://www.tiktok.com/@lacocinadeisacn/video/7498035985641377046",
+      "CategoryIds": [
+        "65018d26-58e7-4e64-b954-369845fee384",
+        "a31f50d4-0286-4d91-8d2f-084706c50639"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
+          "Quantity": "150g"
+        },
+        {
+          "IngredientId": "1f9f71af-abd1-432d-95de-c0fe668f5722",
+          "Quantity": "200g"
+        },
+        {
+          "IngredientId": "bb3fd23c-5dd4-4add-9c2b-975ad4096fc1",
+          "Quantity": "100g"
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": "2"
+        },
+        {
+          "IngredientId": "6728bb89-13a1-419f-a862-11e03fd25037",
+          "Quantity": "80g"
+        },
+        {
+          "IngredientId": "567ba93f-5779-468e-9ece-757fbeb8c207",
+          "Quantity": null
+        }
+      ],
+      "Steps": " Para la capa de bizcocho coulant:\n\n- 150g mantequilla @Kerrygold Espan\u0303a (disponible en Carrefour)\n- 2 huevos\n- 100g harina trigo\n- 200g chocolate negro (especial fundir)\n- 80g az\u00FAcar\n\n\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73 Mezcla todo y vierte en un molde (de unos 18cm) forrado con papel. Hornea, horno precalentado a 180\u00B0, con calor arriba y abajo sin ventilador, unos 15-20 minutos.\n\n\uD83D\uDC49 Para la capa de galleta:\n\n- 150g az\u00FAcar\n- 1 huevo\n- 100g mantequilla blanda\n- 230g harina trigo\n- 1 chorre\u00F3n vainilla\n- 150g pepitas chocolate\n\n\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73 Mezcla todos los ingredientes y, una vez hayan pasado 15-20 minutos de cocci\u00F3n del coulant, coloca encima la masa, con cuidado y cubriendo todo. De nuevo al horno 25 minutos m\u00E1s.\n\n\uD83C\uDF6B Tips: Si lo comes atemperado, tiene como textura de coulant. Si dejas que enfr\u00EDe, es como un brownie.",
+      "Notes": null,
+      "ImageUrl": "https://raw.githubusercontent.com/lga01/RecipeApp/main/images/receta.Id.jpg",
+      "CreatedAt": "2026-07-06T18:59:21.643Z"
     }
   ],
   "Categories": [
@@ -832,6 +871,16 @@
       "Id": "02831ce2-febc-4f38-a7ec-d0a4f860c5cc",
       "Name": "Salsa",
       "NormalizedName": "salsa"
+    },
+    {
+      "Id": "65018d26-58e7-4e64-b954-369845fee384",
+      "Name": "Postre",
+      "NormalizedName": "postre"
+    },
+    {
+      "Id": "a31f50d4-0286-4d91-8d2f-084706c50639",
+      "Name": "Dulce",
+      "NormalizedName": "dulce"
     }
   ],
   "Ingredients": [
@@ -1144,6 +1193,16 @@
       "Id": "3a1c800c-3540-4b93-9020-981a72ac5e42",
       "Name": "Zanahoria",
       "NormalizedName": "zanahoria"
+    },
+    {
+      "Id": "1f9f71af-abd1-432d-95de-c0fe668f5722",
+      "Name": "Chocolate negro fundir",
+      "NormalizedName": "chocolate negro fundir"
+    },
+    {
+      "Id": "567ba93f-5779-468e-9ece-757fbeb8c207",
+      "Name": "Pepitas chocolate",
+      "NormalizedName": "pepitas chocolate"
     }
   ]
 }
