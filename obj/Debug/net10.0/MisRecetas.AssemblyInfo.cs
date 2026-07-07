@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MisRecetas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce22408d5fbb09a76cb4892fcb3ea2aa62f54e54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9be6e773a66714aaef0776157a513533220ec367")]
 [assembly: System.Reflection.AssemblyProductAttribute("MisRecetas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MisRecetas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
