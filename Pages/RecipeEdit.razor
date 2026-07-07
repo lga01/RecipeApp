@@ -1,0 +1,162 @@
+@page "/recipes/new"
+@page "/recipes/{RecipeId}/edit"
+@using MisRecetas.Models
+@using MisRecetas.Shared
+@inject RecipeService RecipeService
+@inject NavigationManager Navigation
+
+<h3>@(esNuevo ? "Nueva receta" : "Editar receta")</h3>
+
+@if (cargando)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <EditForm Model="receta" OnValidSubmit="GuardarAsync">
+        <DataAnnotationsValidator />
+
+        <div class="mb-3">
+            <label>Título</label>
+            <InputText class="form-control" @bind-Value="receta.Title" />
+        </div>
+
+        <div class="mb-3">
+            <label>URL de origen (YouTube, TikTok, web...)</label>
+            <input class="form-control" @bind="receta.SourceUrl" @bind:event="oninput" />
+        </div>
+
+        <div class="mb-3">
+            <label>Categorías</label>
+            <TagSelector TItem="Category"
+                         AllItems="categorias"
+                         SelectedIds="receta.CategoryIds"
+                         SelectedIdsChanged="ids => receta.CategoryIds = ids"
+                         OnCreateNew="RecipeService.GetOrCreateCategoryId"
+                         Placeholder="Ej: Cena, Postre..." />
+        </div>
+
+        <div class="mb-3">
+            <label>Ingredientes</label>
+            <IngredientQuantityInput AllIngredients="ingredientes"
+                                    SelectedIngredients="receta.Ingredients"
+                                    SelectedIngredientsChanged="ings => receta.Ingredients = ings"
+                                    OnCreateNew="RecipeService.GetOrCreateIngredientId" />
+        </div>
+
+        <div class="mb-3">
+            <label>Pasos</label>
+            <InputTextArea class="form-control" rows="6" @bind-Value="receta.Steps" />
+        </div>
+
+        <div class="mb-3">
+            <label>Notas (opcional)</label>
+            <InputTextArea class="form-control" rows="3" @bind-Value="receta.Notes" />
+        </div>
+
+        <ImageInput RecipeId="receta.Id"
+                    CurrentImageUrl="receta.ImageUrl"
+                    CurrentImageUrlChanged="url => receta.ImageUrl = url"
+                    SourceVideoUrl="receta.SourceUrl" />
+
+        @if (!string.IsNullOrEmpty(error))
+        {
+            <p style="color:red">@error</p>
+        }
+
+        <div class="mt-3 d-flex gap-2">
+            <button type="submit" class="btn btn-primary" disabled="@guardando">
+                @(guardando ? "Guardando..." : "Guardar")
+            </button>
+            <button type="button" class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
+        </div>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public string? RecipeId { get; set; }
+
+    private bool esNuevo => string.IsNullOrEmpty(RecipeId);
+    private bool cargando = true;
+    private bool guardando = false;
+    private string? error;
+
+    private Recipe receta = new();
+    private List<Category> categorias = new();
+    private List<Ingredient> ingredientes = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await RecipeService.EnsureLoadedAsync();
+            categorias = RecipeService.GetAllCategories();
+            ingredientes = RecipeService.GetAllIngredients();
+
+            if (!esNuevo)
+            {
+                var existente = RecipeService.GetAll().FirstOrDefault(r => r.Id == RecipeId);
+                if (existente is not null)
+                {
+                    // Copiamos para no mutar el objeto original hasta que se guarde
+                    receta = new Recipe
+                    {
+                        Id = existente.Id,
+                        Title = existente.Title,
+                        SourceUrl = existente.SourceUrl,
+                        CategoryIds = new List<string>(existente.CategoryIds),
+                        Ingredients = existente.Ingredients.Select(i => new RecipeIngredient
+                        {
+                            IngredientId = i.IngredientId,
+                            Quantity = i.Quantity
+                        }).ToList(),
+                        Steps = existente.Steps,
+                        Notes = existente.Notes,
+                        ImageUrl = existente.ImageUrl,
+                        CreatedAt = existente.CreatedAt
+                    };
+                }
+                else
+                {
+                    error = "No se ha encontrado la receta.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al cargar: {ex.Message}";
+        }
+        finally
+        {
+            cargando = false;
+        }
+    }
+
+    private async Task GuardarAsync()
+    {
+        guardando = true;
+        error = null;
+        try
+        {
+            await RecipeService.AddOrUpdateRecipeAsync(receta);
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex) when (ex.Message.Contains("409"))
+        {
+            error = "Los datos han cambiado desde que cargaste la página (quizá los editaste en otro sitio). Recarga la página e inténtalo de nuevo.";
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al guardar: {ex.Message}";
+        }
+        finally
+        {
+            guardando = false;
+        }
+    }
+
+    private void Cancelar()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

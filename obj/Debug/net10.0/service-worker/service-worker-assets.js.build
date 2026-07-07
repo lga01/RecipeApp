@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "VbGPjwnS",
+  "version": "uUxWZYDY",
   "assets": [
     {
       "hash": "sha256-vdGgVsnMfI+1iq9P8zT0IpnFMt7aV1l8E3xXodoQknE=",
@@ -138,12 +138,12 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.Win32.Registry.y4gq7fo2lp.wasm"
     },
     {
-      "hash": "sha256-bHQa0St1NQp3C3pcxJ3dvkoDhMwgaGCDckwdrNbIWmM=",
-      "url": "_framework/MisRecetas.0jwv2zp2nk.pdb"
+      "hash": "sha256-TII+gcXFaWCRAxnULLYw7wOYO+2whvYNermvjX6IlxE=",
+      "url": "_framework/MisRecetas.4c0kbh3h93.pdb"
     },
     {
-      "hash": "sha256-9dFk8zj4knWgkTisgwaor9XlIpdZ+CShN72Sl7mzvoc=",
-      "url": "_framework/MisRecetas.7psje6fmz6.wasm"
+      "hash": "sha256-bshwGibVNOmL09Lqo/U1G5E0CEs3ThvwTqhyk/ZtQrY=",
+      "url": "_framework/MisRecetas.i4zfc7lmkf.wasm"
     },
     {
       "hash": "sha256-Msxz+VaXeSzLcO+27REusA3i8rZyDPExRwGOEKzVK2M=",
@@ -810,10 +810,6 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.958z1vx7fr.js"
     },
     {
-      "hash": "sha256-FXYxQZQkVSwGfWgVpeJ8LtO56rnDXvtTdltXa4o035w=",
-      "url": "_framework/dotnet.50pm6elth2.js"
-    },
-    {
       "hash": "sha256-CMGy9ybQd5JiyOrbA8zPcKD0JnkkWV4HdLg6jAPmbb8=",
       "url": "_framework/dotnet.js.map"
     },
@@ -832,6 +828,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-SZ4sNWTUrCBrLhvMdb1QLMIEA8vmZDV6h4zfJrz8Poo=",
       "url": "_framework/dotnet.runtime.js.map"
+    },
+    {
+      "hash": "sha256-ez2mzKlt+4rO1Na7KTn84UzjydBgob5frYbyHRYKGFs=",
+      "url": "_framework/dotnet.tmpntt9yhc.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -870,8 +870,16 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-CVsr16rO9n6zSwQVQsYrjA4yIo9kWvo/lK0Xf1GG1SE=",
+      "hash": "sha256-D/V2jsN2dALKJnSm4o52DdNPVoPKLwtUij7cfMlMCUY=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-JwhPkJtwmIN5elCCLRE0Qr0HCTwU2gmLWLfch4A0r5I=",
+      "url": "js/imageInterop.js"
+    },
+    {
+      "hash": "sha256-8hlklXe1c/vJQFKh12m4i3zMpu1p/kFoaE4zqD+JuJg=",
+      "url": "js/localStorage.js"
     },
     {
       "hash": "sha256-Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=",

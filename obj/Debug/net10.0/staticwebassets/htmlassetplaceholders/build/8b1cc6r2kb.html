@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MisRecetas</title>
     <base href="/" />
-    <link href="_framework/dotnet.50pm6elth2.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-FXYxQZQkVSwGfWgVpeJ8LtO56rnDXvtTdltXa4o035w=" />
+    <link href="_framework/dotnet.tmpntt9yhc.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-ez2mzKlt+4rO1Na7KTn84UzjydBgob5frYbyHRYKGFs=" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -18,9 +18,11 @@
   "imports": {
     "./_framework/Microsoft.DotNet.HotReload.WebAssembly.Browser.lib.module.js": "./_framework/Microsoft.DotNet.HotReload.WebAssembly.Browser.99zm1jdh75.lib.module.js",
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.958z1vx7fr.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.50pm6elth2.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.ikrs475e5v.js",
     "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.a6jcqbs390.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.tmpntt9yhc.js",
+    "./js/imageInterop.js": "./js/imageInterop.nse9lgyjhp.js",
+    "./js/localStorage.js": "./js/localStorage.mespmxt7eo.js",
     "./lib/bootstrap/dist/js/bootstrap.bundle.js": "./lib/bootstrap/dist/js/bootstrap.bundle.5rsfyhqojc.js",
     "./lib/bootstrap/dist/js/bootstrap.bundle.min.js": "./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
     "./lib/bootstrap/dist/js/bootstrap.esm.js": "./lib/bootstrap/dist/js/bootstrap.esm.48etu1wf13.js",
@@ -34,12 +36,16 @@
     "./_framework/Microsoft.DotNet.HotReload.WebAssembly.Browser.lib.module.js": "sha256-A8e6zZwhOqf7lDQqbbCYcAUv4wGE9aQxOo4WyYxR//0=",
     "./_framework/blazor.webassembly.958z1vx7fr.js": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
     "./_framework/blazor.webassembly.js": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
-    "./_framework/dotnet.50pm6elth2.js": "sha256-FXYxQZQkVSwGfWgVpeJ8LtO56rnDXvtTdltXa4o035w=",
-    "./_framework/dotnet.js": "sha256-FXYxQZQkVSwGfWgVpeJ8LtO56rnDXvtTdltXa4o035w=",
+    "./_framework/dotnet.js": "sha256-ez2mzKlt+4rO1Na7KTn84UzjydBgob5frYbyHRYKGFs=",
     "./_framework/dotnet.native.ikrs475e5v.js": "sha256-kkp5wX0htwkBcZt5WmEiKmhBqjqdCJtGc+koldfyoDQ=",
     "./_framework/dotnet.native.js": "sha256-kkp5wX0htwkBcZt5WmEiKmhBqjqdCJtGc+koldfyoDQ=",
     "./_framework/dotnet.runtime.a6jcqbs390.js": "sha256-7i3usfTrnzC/9qWO4si5Bw4w7D9fUSnSBdhQ47blX2M=",
     "./_framework/dotnet.runtime.js": "sha256-7i3usfTrnzC/9qWO4si5Bw4w7D9fUSnSBdhQ47blX2M=",
+    "./_framework/dotnet.tmpntt9yhc.js": "sha256-ez2mzKlt+4rO1Na7KTn84UzjydBgob5frYbyHRYKGFs=",
+    "./js/imageInterop.js": "sha256-JwhPkJtwmIN5elCCLRE0Qr0HCTwU2gmLWLfch4A0r5I=",
+    "./js/imageInterop.nse9lgyjhp.js": "sha256-JwhPkJtwmIN5elCCLRE0Qr0HCTwU2gmLWLfch4A0r5I=",
+    "./js/localStorage.js": "sha256-8hlklXe1c/vJQFKh12m4i3zMpu1p/kFoaE4zqD+JuJg=",
+    "./js/localStorage.mespmxt7eo.js": "sha256-8hlklXe1c/vJQFKh12m4i3zMpu1p/kFoaE4zqD+JuJg=",
     "./lib/bootstrap/dist/js/bootstrap.bundle.5rsfyhqojc.js": "sha256-r9qXynM8U8uL8bnqBY7msvEA9KL+Dd1rYE2fEFsQ6ag=",
     "./lib/bootstrap/dist/js/bootstrap.bundle.js": "sha256-r9qXynM8U8uL8bnqBY7msvEA9KL+Dd1rYE2fEFsQ6ag=",
     "./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js": "sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=",
@@ -70,6 +76,8 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
+    <script src="js/localStorage.js"></script>
+    <script src="js/imageInterop.js"></script>
     <script src="_framework/blazor.webassembly.958z1vx7fr.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });</script>
 </body>

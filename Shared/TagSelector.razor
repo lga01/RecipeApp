@@ -1,0 +1,124 @@
+@typeparam TItem where TItem : ITaggable
+@using MisRecetas.Utils
+@using MisRecetas.Models
+
+<div class="tag-selector">
+
+    @if (SelectedIds.Any())
+    {
+        <div class="d-flex flex-wrap gap-2 mb-2">
+            @foreach (var id in SelectedIds)
+            {
+                var item = AllItems.FirstOrDefault(i => i.Id == id);
+                <span class="badge bg-primary d-flex align-items-center gap-1 p-2">
+                    @(item?.Name ?? "(desconocido)")
+                    <button type="button" class="btn-close btn-close-white"
+                            style="font-size:0.6rem;"
+                            @onclick="() => Remove(id)"></button>
+                </span>
+            }
+        </div>
+    }
+
+    <div class="position-relative">
+        <input class="form-control"
+               placeholder="@Placeholder"
+               @bind="inputText"
+               @bind:event="oninput"
+               @onfocus="() => showDropdown = true"
+               @onkeydown="OnKeyDown" />
+
+        @if (showDropdown && !string.IsNullOrWhiteSpace(inputText))
+        {
+            <div class="list-group position-absolute w-100" style="z-index:1000; max-height:200px; overflow-y:auto;">
+                @foreach (var suggestion in FilteredSuggestions())
+                {
+                    <button type="button" class="list-group-item list-group-item-action"
+                            @onclick="() => Select(suggestion)">
+                        @suggestion.Name
+                    </button>
+                }
+
+                @if (AllowCreate && !ExactMatchExists())
+                {
+                    <button type="button" class="list-group-item list-group-item-action text-success"
+                            @onclick="CreateNew">
+                        ➕ Crear "@inputText"
+                    </button>
+                }
+
+                @if (!FilteredSuggestions().Any() && (!AllowCreate || ExactMatchExists()))
+                {
+                    <div class="list-group-item text-muted">Sin resultados</div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public List<TItem> AllItems { get; set; } = new();
+    [Parameter] public List<string> SelectedIds { get; set; } = new();
+    [Parameter] public EventCallback<List<string>> SelectedIdsChanged { get; set; }
+    [Parameter] public bool AllowCreate { get; set; } = true;
+    [Parameter] public string Placeholder { get; set; } = "Escribe para buscar...";
+
+    // Solo se usa si AllowCreate = true. Debe devolver el Id (nuevo o existente reutilizado).
+    [Parameter] public Func<string, string>? OnCreateNew { get; set; }
+
+    private string inputText = "";
+    private bool showDropdown = false;
+
+    private List<TItem> FilteredSuggestions()
+    {
+        var normalizedInput = TextNormalizer.Normalize(inputText);
+        return AllItems
+            .Where(i => !SelectedIds.Contains(i.Id))
+            .Where(i => i.NormalizedName.Contains(normalizedInput))
+            .Take(8)
+            .ToList();
+    }
+
+    private bool ExactMatchExists()
+    {
+        var normalizedInput = TextNormalizer.Normalize(inputText);
+        return AllItems.Any(i => i.NormalizedName == normalizedInput);
+    }
+
+    private async Task Select(TItem item)
+    {
+        if (!SelectedIds.Contains(item.Id))
+        {
+            SelectedIds.Add(item.Id);
+            await SelectedIdsChanged.InvokeAsync(SelectedIds);
+        }
+        inputText = "";
+        showDropdown = false;
+    }
+
+    private async Task CreateNew()
+    {
+        if (OnCreateNew is null || string.IsNullOrWhiteSpace(inputText)) return;
+
+        var newId = OnCreateNew(inputText);
+        if (!SelectedIds.Contains(newId))
+        {
+            SelectedIds.Add(newId);
+            await SelectedIdsChanged.InvokeAsync(SelectedIds);
+        }
+        inputText = "";
+        showDropdown = false;
+    }
+
+    private async Task Remove(string id)
+    {
+        SelectedIds.Remove(id);
+        await SelectedIdsChanged.InvokeAsync(SelectedIds);
+    }
+
+    private void OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Escape")
+            showDropdown = false;
+    }
+}

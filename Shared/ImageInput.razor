@@ -1,0 +1,89 @@
+@using MisRecetas.Services
+@inject ImageService ImageService
+
+<div class="mb-3">
+    <label>Imagen de la receta</label>
+
+    @if (!string.IsNullOrEmpty(CurrentImageUrl))
+    {
+        <div class="mb-2">
+            <img src="@CurrentImageUrl" style="max-width:200px; display:block;" />
+        </div>
+    }
+
+    <div class="mb-2">
+        <label class="form-label">Subir una foto</label>
+        <InputFile OnChange="OnFileSelectedAsync" accept="image/*" />
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">O pegar una URL de imagen directa</label>
+        <input class="form-control" @bind="urlManual" @bind:event="oninput" @onchange="OnUrlManualChanged" />
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(SourceVideoUrl))
+    {
+        <button type="button" class="btn btn-sm btn-outline-secondary" @onclick="IntentarObtenerMiniaturaAsync">
+            Intentar obtener miniatura del vídeo
+        </button>
+    }
+
+    @if (subiendo)
+    {
+        <p><em>Procesando imagen...</em></p>
+    }
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <p style="color:red">@error</p>
+    }
+</div>
+
+@code {
+    [Parameter] public string RecipeId { get; set; } = "";
+    [Parameter] public string? CurrentImageUrl { get; set; }
+    [Parameter] public EventCallback<string> CurrentImageUrlChanged { get; set; }
+    [Parameter] public string? SourceVideoUrl { get; set; }
+
+    private string urlManual = "";
+    private bool subiendo = false;
+    private string? error;
+
+    private async Task OnFileSelectedAsync(InputFileChangeEventArgs e)
+    {
+        subiendo = true;
+        error = null;
+        try
+        {
+            var url = await ImageService.UploadRecipeImageAsync(e.File, RecipeId);
+            await CurrentImageUrlChanged.InvokeAsync(url);
+        }
+        catch (Exception ex)
+        {
+            error = $"No se pudo subir la imagen: {ex.Message}";
+        }
+        finally
+        {
+            subiendo = false;
+        }
+    }
+
+    private async Task OnUrlManualChanged()
+    {
+        if (!string.IsNullOrWhiteSpace(urlManual))
+            await CurrentImageUrlChanged.InvokeAsync(urlManual);
+    }
+
+    private async Task IntentarObtenerMiniaturaAsync()
+    {
+        error = null;
+        var thumb = await ImageService.TryGetYouTubeThumbnailAsync(SourceVideoUrl!);
+
+        if (thumb is null)
+            thumb = await ImageService.TryGetTikTokThumbnailAsync(SourceVideoUrl!);
+
+        if (thumb is not null)
+            await CurrentImageUrlChanged.InvokeAsync(thumb);
+        else
+            error = "No se pudo obtener una miniatura automáticamente (prueba a subir una foto o pegar la URL a mano).";
+    }
+}

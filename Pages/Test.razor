@@ -1,0 +1,198 @@
+@* @using MisRecetas.Services 
+@using MisRecetas.Models
+@page "/test"
+@inject RecipeService RecipeService
+
+<h3>Página de prueba</h3>
+<a href="/recipes/new" class="btn btn-primary">+ Nueva receta</a>
+<button class="btn btn-primary" @onclick="CargarAsync">Cargar recetas desde GitHub</button>
+<button class="btn btn-success" @onclick="AnadirRecetaPruebaAsync">Añadir receta de prueba</button>
+
+@if (cargando)
+{
+    <p>Cargando...</p>
+}
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <p style="color:red">Error: @error</p>
+}
+
+@if (mensaje != null)
+{
+    <p style="color:green">@mensaje</p>
+}
+
+<hr />
+
+<h4>Categorías (@categorias.Count)</h4>
+<ul>
+    @foreach (var c in categorias)
+    {
+        <li>@c.Name (@c.Id)</li>
+    }
+</ul>
+
+<h4>Ingredientes (@ingredientes.Count)</h4>
+<ul>
+    @foreach (var i in ingredientes)
+    {
+        <li>@i.Name (@i.Id)</li>
+    }
+</ul>
+
+<h4>Recetas (@recetas.Count)</h4>
+<ul>
+    @foreach (var r in recetas)
+    {
+        <li>
+            <strong>@r.Title</strong> —
+            Categorías: @string.Join(", ", r.CategoryIds.Select(id => categorias.FirstOrDefault(c => c.Id == id)?.Name ?? id)) —
+            Ingredientes: @string.Join(", ", r.IngredientIds.Select(id => ingredientes.FirstOrDefault(x => x.Id == id)?.Name ?? id))
+        </li>
+    }
+</ul>
+<hr />
+<h4>Prueba de imágenes</h4>
+
+<div class="mb-2">
+    <label>Subir una foto de prueba</label>
+    <InputFile OnChange="OnFileSelectedAsync" accept="image/*" />
+</div>
+
+@if (subiendoImagen)
+{
+    <p><em>Procesando y subiendo imagen...</em></p>
+}
+
+@if (!string.IsNullOrEmpty(imagenUrl))
+{
+    <p style="color:green">Subida correctamente ✅</p>
+    <p>URL: @imagenUrl</p>
+    <img src="@imagenUrl" style="max-width:300px;" />
+}
+
+@if (!string.IsNullOrEmpty(errorImagen))
+{
+    <p style="color:red">Error: @errorImagen</p>
+}
+
+<hr />
+<h4>Prueba de miniatura de YouTube</h4>
+<input class="form-control mb-2" placeholder="Pega una URL de YouTube" @bind="youtubeUrl" />
+<button class="btn btn-secondary" @onclick="ProbarYouTubeAsync">Obtener miniatura</button>
+
+@if (!string.IsNullOrEmpty(youtubeThumb))
+{
+    <p>Miniatura encontrada:</p>
+    <img src="@youtubeThumb" style="max-width:300px;" />
+}
+@code {
+    [Inject] private ImageService ImageService { get; set; } = default!;
+
+    private bool subiendoImagen = false;
+    private string? imagenUrl;
+    private string? errorImagen;
+
+    private string youtubeUrl = "";
+    private string? youtubeThumb;
+    private bool cargando = false;
+    private string? error;
+    private string? mensaje;
+
+    private List<Recipe> recetas = new();
+    private List<Category> categorias = new();
+    private List<Ingredient> ingredientes = new();
+    private async Task OnFileSelectedAsync(InputFileChangeEventArgs e)
+    {
+        subiendoImagen = true;
+        errorImagen = null;
+        imagenUrl = null;
+        StateHasChanged();
+
+        try
+        {
+            // Usamos un ID de prueba fijo para no llenar el repo de archivos sueltos en cada test
+            imagenUrl = await ImageService.UploadRecipeImageAsync(e.File, "test-image");
+        }
+        catch (Exception ex)
+        {
+            errorImagen = ex.Message;
+        }
+        finally
+        {
+            subiendoImagen = false;
+        }
+    }
+
+    private async Task ProbarYouTubeAsync()
+    {
+        youtubeThumb = await ImageService.TryGetYouTubeThumbnailAsync(youtubeUrl);
+    }
+    private async Task CargarAsync()
+    {
+        cargando = true;
+        error = null;
+        mensaje = null;
+        StateHasChanged();
+
+        try
+        {
+            await RecipeService.EnsureLoadedAsync();
+            RefrescarListas();
+            mensaje = "Cargado correctamente ✅";
+        }
+        catch (Exception ex)
+        {
+            error = ex.Message;
+        }
+        finally
+        {
+            cargando = false;
+        }
+    }
+
+    private async Task AnadirRecetaPruebaAsync()
+    {
+        cargando = true;
+        error = null;
+        mensaje = null;
+        StateHasChanged();
+
+        try
+        {
+            await RecipeService.EnsureLoadedAsync();
+
+            var categoriaId = RecipeService.GetOrCreateCategoryId("Cena");
+            var ingrediente1Id = RecipeService.GetOrCreateIngredientId("Huevo");
+            var ingrediente2Id = RecipeService.GetOrCreateIngredientId("Patata");
+
+            var receta = new Recipe
+            {
+                Title = $"Tortilla de prueba {DateTime.Now:HH:mm:ss}",
+                Steps = "Batir huevos, freír patata, mezclar y cuajar.",
+                CategoryIds = new List<string> { categoriaId },
+                IngredientIds = new List<string> { ingrediente1Id, ingrediente2Id }
+            };
+
+            await RecipeService.AddOrUpdateRecipeAsync(receta);
+            RefrescarListas();
+            mensaje = "Receta añadida y guardada en GitHub ✅";
+        }
+        catch (Exception ex)
+        {
+            error = ex.Message;
+        }
+        finally
+        {
+            cargando = false;
+        }
+    }
+
+    private void RefrescarListas()
+    {
+        recetas = RecipeService.GetAll();
+        categorias = RecipeService.GetAllCategories();
+        ingredientes = RecipeService.GetAllIngredients();
+    }
+} *@

@@ -1,0 +1,168 @@
+@page "/recipes/{RecipeId}"
+@using MisRecetas.Models
+@inject RecipeService RecipeService
+@inject NavigationManager Navigation
+
+@if (cargando)
+{
+    <p><em>Cargando...</em></p>
+}
+else if (!string.IsNullOrEmpty(error))
+{
+    <p style="color:red">@error</p>
+    <a href="/" class="btn btn-secondary">Volver al listado</a>
+}
+else if (receta is null)
+{
+    <p>No se ha encontrado la receta.</p>
+    <a href="/" class="btn btn-secondary">Volver al listado</a>
+}
+else
+{
+    <div class="mb-3">
+        <a href="/" class="btn btn-sm btn-outline-secondary">← Volver</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5 mb-3">
+            @if (!string.IsNullOrEmpty(receta.ImageUrl))
+            {
+                <img src="@receta.ImageUrl" class="img-fluid rounded" />
+            }
+        </div>
+
+        <div class="col-md-7">
+            <h2>@receta.Title</h2>
+
+            @if (categoriasReceta.Any())
+            {
+                <p>
+                    @foreach (var cat in categoriasReceta)
+                    {
+                        <span class="badge bg-primary me-1">@cat.Name</span>
+                    }
+                </p>
+            }
+
+            @if (!string.IsNullOrEmpty(receta.SourceUrl))
+            {
+                <p>
+                    <a href="@receta.SourceUrl" target="_blank" rel="noopener noreferrer">
+                        Ver origen (vídeo/web) ↗
+                    </a>
+                </p>
+            }
+
+            <h5>Ingredientes</h5>
+            @if (receta.Ingredients.Any())
+            {
+                <ul>
+                    @foreach (var item in receta.Ingredients)
+                    {
+                        <li>
+                            @NombreIngrediente(item.IngredientId)
+                            @if (!string.IsNullOrWhiteSpace(item.Quantity))
+                            {
+                                <span class="text-muted"> — @item.Quantity</span>
+                            }
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-muted">Sin ingredientes especificados.</p>
+            }
+
+            <h5>Pasos</h5>
+            <p style="white-space: pre-wrap;">@receta.Steps</p>
+
+            @if (!string.IsNullOrEmpty(receta.Notes))
+            {
+                <h5>Notas</h5>
+                <p style="white-space: pre-wrap;">@receta.Notes</p>
+            }
+
+            <div class="d-flex gap-2 mt-4">
+                <a href="/recipes/@receta.Id/edit" class="btn btn-primary">Editar</a>
+                <button class="btn btn-danger" @onclick="() => mostrarConfirmacion = true">Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    @if (mostrarConfirmacion)
+    {
+        <div class="alert alert-warning mt-3">
+            <p>¿Seguro que quieres eliminar "<strong>@receta.Title</strong>"? Esta acción no se puede deshacer.</p>
+            <div class="d-flex gap-2">
+                <button class="btn btn-danger" @onclick="EliminarAsync" disabled="@eliminando">
+                    @(eliminando ? "Eliminando..." : "Sí, eliminar")
+                </button>
+                <button class="btn btn-secondary" @onclick="() => mostrarConfirmacion = false">Cancelar</button>
+            </div>
+        </div>
+    }
+}
+
+@code {
+    [Parameter] public string RecipeId { get; set; } = "";
+
+    private bool cargando = true;
+    private bool eliminando = false;
+    private bool mostrarConfirmacion = false;
+    private string? error;
+
+    private Recipe? receta;
+    private List<Category> categoriasReceta = new();
+    private string NombreIngrediente(string id) =>
+    RecipeService.GetAllIngredients().FirstOrDefault(i => i.Id == id)?.Name ?? "(desconocido)";
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await RecipeService.EnsureLoadedAsync();
+
+            receta = RecipeService.GetAll().FirstOrDefault(r => r.Id == RecipeId);
+
+            if (receta is not null)
+            {
+                var todasCategorias = RecipeService.GetAllCategories();
+                var todosIngredientes = RecipeService.GetAllIngredients();
+
+                categoriasReceta = todasCategorias
+                    .Where(c => receta.CategoryIds.Contains(c.Id))
+                    .ToList();
+            }
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al cargar: {ex.Message}";
+        }
+        finally
+        {
+            cargando = false;
+        }
+    }
+
+    private async Task EliminarAsync()
+    {
+        if (receta is null) return;
+
+        eliminando = true;
+        try
+        {
+            await RecipeService.DeleteRecipeAsync(receta.Id);
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex) when (ex.Message.Contains("409"))
+        {
+            error = "Los datos han cambiado desde que cargaste la página (quizá los editaste en otro sitio). Recarga la página e inténtalo de nuevo.";
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al eliminar: {ex.Message}";
+            eliminando = false;
+            mostrarConfirmacion = false;
+        }
+    }
+}

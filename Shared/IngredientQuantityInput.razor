@@ -1,0 +1,164 @@
+@using MisRecetas.Utils
+@using MisRecetas.Models
+<div class="ingredient-quantity-input">
+
+    @if (SelectedIngredients.Any())
+    {
+        <ul class="list-group mb-2">
+            @foreach (var item in SelectedIngredients)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>
+                        <strong>@NombreIngrediente(item.IngredientId)</strong>
+                        @if (!string.IsNullOrWhiteSpace(item.Quantity))
+                        {
+                            <span class="text-muted"> — @item.Quantity</span>
+                        }
+                    </span>
+                    <button type="button" class="btn btn-sm btn-outline-danger"
+                            @onclick="() => Remove(item)">✕</button>
+                </li>
+            }
+        </ul>
+    }
+
+    <div class="row g-2 align-items-start position-relative">
+        <div class="col-6 position-relative">
+            <input class="form-control" placeholder="Ingrediente..."
+                   @bind="inputText"
+                   @bind:event="oninput"
+                   @onfocus="() => showDropdown = true" />
+
+            @if (showDropdown && !string.IsNullOrWhiteSpace(inputText))
+            {
+                <div class="list-group position-absolute w-100" style="z-index:1000; max-height:200px; overflow-y:auto;">
+                    @foreach (var suggestion in FilteredSuggestions())
+                    {
+                        <button type="button" class="list-group-item list-group-item-action"
+                                @onclick="() => SelectSuggestion(suggestion)">
+                            @suggestion.Name
+                        </button>
+                    }
+
+                    @if (!ExactMatchExists())
+                    {
+                        <button type="button" class="list-group-item list-group-item-action text-success"
+                                @onclick="() => SelectSuggestion(null)">
+                            ➕ Crear "@inputText"
+                        </button>
+                    }
+                </div>
+            }
+        </div>
+
+        <div class="col-4">
+            <input class="form-control" placeholder="Cantidad (opcional)" @bind="cantidadText" />
+        </div>
+
+        <div class="col-2">
+            <button type="button" class="btn btn-primary w-100" @onclick="Add"
+                    disabled="@string.IsNullOrWhiteSpace(inputText)">
+                Añadir
+            </button>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public List<Ingredient> AllIngredients { get; set; } = new();
+    [Parameter] public List<RecipeIngredient> SelectedIngredients { get; set; } = new();
+    [Parameter] public EventCallback<List<RecipeIngredient>> SelectedIngredientsChanged { get; set; }
+    [Parameter] public Func<string, string>? OnCreateNew { get; set; }
+
+    private string inputText = "";
+    private string cantidadText = "";
+    private bool showDropdown = false;
+    private string? ingredienteIdSeleccionado; // si el usuario clicó una sugerencia existente
+
+    private List<Ingredient> FilteredSuggestions()
+    {
+        var normalizedInput = TextNormalizer.Normalize(inputText);
+        var yaAgregados = SelectedIngredients.Select(i => i.IngredientId).ToList();
+
+        return AllIngredients
+            .Where(i => !yaAgregados.Contains(i.Id))
+            .Where(i => i.NormalizedName.Contains(normalizedInput))
+            .Take(8)
+            .ToList();
+    }
+
+    private bool ExactMatchExists()
+    {
+        var normalizedInput = TextNormalizer.Normalize(inputText);
+        return AllIngredients.Any(i => i.NormalizedName == normalizedInput);
+    }
+
+    private void SelectSuggestion(Ingredient? ingrediente)
+    {
+        if (ingrediente is not null)
+        {
+            ingredienteIdSeleccionado = ingrediente.Id;
+            inputText = ingrediente.Name;
+        }
+        else
+        {
+            // "Crear nuevo": aún no tiene Id, se resolverá al pulsar "Añadir"
+            ingredienteIdSeleccionado = null;
+        }
+        showDropdown = false;
+    }
+
+    private async Task Add()
+    {
+        if (string.IsNullOrWhiteSpace(inputText)) return;
+
+        string ingredientId;
+
+        // Si el texto coincide exactamente con uno ya existente, lo reutilizamos
+        var normalizedInput = TextNormalizer.Normalize(inputText);
+        var existente = AllIngredients.FirstOrDefault(i => i.NormalizedName == normalizedInput);
+
+        if (existente is not null)
+        {
+            ingredientId = existente.Id;
+        }
+        else if (OnCreateNew is not null)
+        {
+            ingredientId = OnCreateNew(inputText);
+        }
+        else
+        {
+            return;
+        }
+
+        // Evitar duplicar el mismo ingrediente dos veces en la receta
+        if (SelectedIngredients.Any(i => i.IngredientId == ingredientId))
+        {
+            inputText = "";
+            cantidadText = "";
+            ingredienteIdSeleccionado = null;
+            return;
+        }
+
+        SelectedIngredients.Add(new RecipeIngredient
+        {
+            IngredientId = ingredientId,
+            Quantity = string.IsNullOrWhiteSpace(cantidadText) ? null : cantidadText.Trim()
+        });
+
+        await SelectedIngredientsChanged.InvokeAsync(SelectedIngredients);
+
+        inputText = "";
+        cantidadText = "";
+        ingredienteIdSeleccionado = null;
+    }
+
+    private async Task Remove(RecipeIngredient item)
+    {
+        SelectedIngredients.Remove(item);
+        await SelectedIngredientsChanged.InvokeAsync(SelectedIngredients);
+    }
+
+    private string NombreIngrediente(string id) =>
+        AllIngredients.FirstOrDefault(i => i.Id == id)?.Name ?? "(desconocido)";
+}

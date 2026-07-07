@@ -1,0 +1,126 @@
+@page "/"
+@using MisRecetas.Models
+@using MisRecetas.Shared
+@inject RecipeService RecipeService
+@inject NavigationManager Navigation
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Mis recetas</h3>
+    <a href="/recipes/new" class="btn btn-primary">+ Nueva receta</a>
+</div>
+
+@if (cargando)
+{
+    <p><em>Cargando recetas...</em></p>
+}
+else if (!string.IsNullOrEmpty(error))
+{
+    <p style="color:red">@error</p>
+    <button class="btn btn-secondary" @onclick="CargarAsync">Reintentar</button>
+}
+else
+{
+    <div class="row mb-3">
+        <div class="col-md-4 mb-2">
+            <input class="form-control" placeholder="Buscar por título..."
+                   @bind="textoBusqueda" @bind:event="oninput" />
+        </div>
+        <div class="col-md-4 mb-2">
+            <TagSelector TItem="Category"
+                         AllItems="categorias"
+                         SelectedIds="categoriasFiltro"
+                         SelectedIdsChanged="ids => categoriasFiltro = ids"
+                         AllowCreate="false"
+                         Placeholder="Filtrar por categoría..." />
+        </div>
+        <div class="col-md-4 mb-2">
+            <TagSelector TItem="Ingredient"
+                         AllItems="ingredientes"
+                         SelectedIds="ingredientesFiltro"
+                         SelectedIdsChanged="ids => ingredientesFiltro = ids"
+                         AllowCreate="false"
+                         Placeholder="Filtrar por ingrediente..." />
+        </div>
+    </div>
+
+    @if (recetasFiltradas.Any())
+    {
+        <div class="row">
+            @foreach (var receta in recetasFiltradas)
+            {
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        @if (!string.IsNullOrEmpty(receta.ImageUrl))
+                        {
+                        <img src="@receta.ImageUrl" class="card-img-top" style="height:180px; object-fit:contain; background-color:#f8f9fa;" />                        }
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">@receta.Title</h5>
+                            <p class="card-text text-muted small">
+                                @string.Join(", ", receta.CategoryIds.Select(id => NombreCategoria(id)))
+                            </p>
+                            <div class="mt-auto d-flex gap-2">
+                                <a href="/recipes/@receta.Id" class="btn btn-sm btn-outline-primary">Ver</a>
+                                <a href="/recipes/@receta.Id/edit" class="btn btn-sm btn-outline-secondary">Editar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-muted">No hay recetas que coincidan con la búsqueda.</p>
+    }
+}
+
+@code {
+    private bool cargando = true;
+    private string? error;
+
+    private List<Recipe> recetas = new();
+    private List<Category> categorias = new();
+    private List<Ingredient> ingredientes = new();
+
+    private string textoBusqueda = "";
+    private List<string> categoriasFiltro = new();
+    private List<string> ingredientesFiltro = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarAsync();
+    }
+
+    private async Task CargarAsync()
+    {
+        cargando = true;
+        error = null;
+        try
+        {
+            await RecipeService.EnsureLoadedAsync();
+            recetas = RecipeService.GetAll();
+            categorias = RecipeService.GetAllCategories();
+            ingredientes = RecipeService.GetAllIngredients();
+        }
+        catch (Exception ex)
+        {
+            error = $"Error al cargar: {ex.Message}";
+        }
+        finally
+        {
+            cargando = false;
+        }
+    }
+
+    private IEnumerable<Recipe> recetasFiltradas =>
+    recetas.Where(r =>
+        (string.IsNullOrWhiteSpace(textoBusqueda) ||
+            r.Title.Contains(textoBusqueda, StringComparison.OrdinalIgnoreCase)) &&
+        (!categoriasFiltro.Any() || r.CategoryIds.Intersect(categoriasFiltro).Any()) &&
+        (!ingredientesFiltro.Any() || r.Ingredients.Select(i => i.IngredientId).Intersect(ingredientesFiltro).Any())
+    )
+    .OrderByDescending(r => r.CreatedAt);
+
+    private string NombreCategoria(string id) =>
+        categorias.FirstOrDefault(c => c.Id == id)?.Name ?? "";
+}

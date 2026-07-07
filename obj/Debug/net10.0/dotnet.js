@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "MisRecetas",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-V6vpiQ4rCwUMEZXJROylMKi3zD4TzRakNSHaQ69gsY4=",
+    "hash": "sha256-+6RmLlkxpz59PxJ9JEmcx99oKyE6gBgRCpMGSyWcni0=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ikrs475e5v.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "MisRecetas.wasm",
-        "name": "MisRecetas.7psje6fmz6.wasm",
-        "hash": "sha256-9dFk8zj4knWgkTisgwaor9XlIpdZ+CShN72Sl7mzvoc=",
+        "name": "MisRecetas.i4zfc7lmkf.wasm",
+        "hash": "sha256-bshwGibVNOmL09Lqo/U1G5E0CEs3ThvwTqhyk/ZtQrY=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "MisRecetas.pdb",
-        "name": "MisRecetas.0jwv2zp2nk.pdb",
-        "hash": "sha256-bHQa0St1NQp3C3pcxJ3dvkoDhMwgaGCDckwdrNbIWmM=",
+        "name": "MisRecetas.4c0kbh3h93.pdb",
+        "hash": "sha256-TII+gcXFaWCRAxnULLYw7wOYO+2whvYNermvjX6IlxE=",
         "cache": "force-cache"
       }
     ],

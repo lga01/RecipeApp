@@ -1,0 +1,50 @@
+@using MisRecetas.Services
+@page "/settings"
+@inject IAuthTokenService AuthTokenService
+
+<h3>Configuración de GitHub</h3>
+
+<div class="mb-3">
+    <label>Usuario/Organización de GitHub</label>
+    <input class="form-control" @bind="owner" />
+</div>
+<div class="mb-3">
+    <label>Nombre del repositorio</label>
+    <input class="form-control" @bind="repo" />
+</div>
+<div class="mb-3">
+    <label>Personal Access Token</label>
+    <input type="password" class="form-control" @bind="token" />
+</div>
+
+<button class="btn btn-primary" @onclick="GuardarAsync">Guardar</button>
+
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <p class="mt-2">@mensaje</p>
+}
+
+@code {
+    private string owner = "";
+    private string repo = "";
+    private string token = "";
+    private string? mensaje;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var config = await AuthTokenService.GetConfigAsync();
+        if (config != null)
+        {
+            owner = config.Owner;
+            repo = config.Repo;
+        }
+        token = await AuthTokenService.GetTokenAsync() ?? "";
+    }
+
+    private async Task GuardarAsync()
+    {
+        await AuthTokenService.SetTokenAsync(token);
+        await AuthTokenService.SetConfigAsync(new GitHubConfig { Owner = owner, Repo = repo });
+        mensaje = "Guardado correctamente ✅";
+    }
+}
