@@ -6,7 +6,7 @@
 
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h3>Mis recetas</h3>
-    <a href="/new" class="btn btn-primary">+ Nueva receta</a>
+    <a href="/RecipeApp/new" class="btn btn-primary">+ Nueva receta</a>
 </div>
 
 @if (cargando)
@@ -59,8 +59,8 @@ else
                                 @string.Join(", ", receta.CategoryIds.Select(id => NombreCategoria(id)))
                             </p>
                             <div class="mt-auto d-flex gap-2">
-                                <a href="/@receta.Id" class="btn btn-sm btn-outline-primary">Ver</a>
-                                <a href="/@receta.Id/edit" class="btn btn-sm btn-outline-secondary">Editar</a>
+                                <a href="/RecipeApp/@receta.Id" class="btn btn-sm btn-outline-primary">Ver</a>
+                                <a href="/RecipeApp/@receta.Id/edit" class="btn btn-sm btn-outline-secondary">Editar</a>
                             </div>
                         </div>
                     </div>
