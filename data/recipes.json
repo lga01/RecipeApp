@@ -1043,6 +1043,34 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-05T21:11:16.339Z"
+    },
+    {
+      "Id": "cd65137c-63a9-4158-aab9-780938eac317",
+      "Title": "Sandwich de papel de arroz con relleno",
+      "SourceUrl": "https://www.tiktok.com/@cocinandocontigoo/video/7637598955420814615",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "980edb8e-1547-4da2-b185-8d346c2a540e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "\uD83E\uDD62 Ingredientes:\n\u2022 2 obleas de papel de arroz\n\u2022 1 huevo batido\n\u2022 Pat\u00E9 de aceitunas (o hummus, queso crema\u2026 lo que tengas)\n\u2022 Jam\u00F3n cocido\n\u2022 Queso\n\u2022 1 huevo extra por encima (opcional, pero \uD83D\uDD1D)\n\u2022 Hierbas provenzales o copos de chili (opcional)\n\nHidratar las lamians de arroz con huevo, poner ambas laminas en un recipiente de airfryer u horno, rellenar con lo que se quiera, jam\u00F3n, queso, pat\u00E9, queso crema... doblarlo, hacer un hueco para el huevo y al horno/airfryer. El huevo se puede hacer junto con las laminas o aparte\n\n\uD83D\uDC69\u200D\uD83C\uDF73 A la airfryer 10 minutos a 180 \u00B0C (o hasta que el huevo est\u00E9 en su punto)\u2026 \u00A1y listo! \u2728 \n\nPara horno, en ese caso, hornea la tortilla unos 12-15 minutos a 190-200 \u00B0C, hasta que el papel de arroz est\u00E9 dorado y crujiente. Luego a\u00F1ade el huevo reci\u00E9n hecho por encima y termina con hierbas provenzales, pimienta o copos de chili.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-09T20:13:05.317Z"
     }
   ],
   "Categories": [
@@ -1502,6 +1530,11 @@
       "Id": "175ab655-9e16-4964-bfa5-875235e9652d",
       "Name": "Maicena",
       "NormalizedName": "maicena"
+    },
+    {
+      "Id": "980edb8e-1547-4da2-b185-8d346c2a540e",
+      "Name": "Jam\u00F3n York",
+      "NormalizedName": "jamon york"
     }
   ]
 }
