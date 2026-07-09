@@ -139,7 +139,7 @@ else
         try
         {
             await RecipeService.AddOrUpdateRecipeAsync(receta);
-            Navigation.NavigateTo("/");
+            Navigation.NavigateTo("/RecipeApp");
         }
         catch (Exception ex) when (ex.Message.Contains("409"))
         {
@@ -157,6 +157,6 @@ else
 
     private void Cancelar()
     {
-        Navigation.NavigateTo("/");
+        Navigation.NavigateTo("/RecipeApp");
     }
 }

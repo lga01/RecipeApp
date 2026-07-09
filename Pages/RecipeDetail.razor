@@ -152,7 +152,7 @@ else
         try
         {
             await RecipeService.DeleteRecipeAsync(receta.Id);
-            Navigation.NavigateTo("/");
+            Navigation.NavigateTo("/RecipeApp");
         }
         catch (Exception ex) when (ex.Message.Contains("409"))
         {
