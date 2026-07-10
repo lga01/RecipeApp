@@ -1071,6 +1071,76 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-09T20:13:05.317Z"
+    },
+    {
+      "Id": "eeecc78e-d4bd-4d4a-8ad1-89b86e45f5ba",
+      "Title": "Burritos cremosos de pollo, ajo y queso",
+      "SourceUrl": "https://www.tiktok.com/@louishowardpt/video/7639055962015354134",
+      "CategoryIds": [
+        "7d600b22-bf4c-4868-b45f-19e7cb738768"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "aedba767-1f5b-4cac-8db2-bf6dce60bcb3",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2effc7cb-e568-43c7-846c-145857f69ae8",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "fc7ce2f8-bfa9-4f49-b4f6-f1c3444d000a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "0264c112-18e8-4fc6-b8f2-072566ab46ea",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b0103e43-d074-484d-8dc1-0776e65e7217",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ba89e32c-b3b9-470a-8664-ca3d4d9865ff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3264cf89-7262-450f-a5bf-7e99c5309fb7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "787a571f-f12a-4a8b-a92a-35799c05fdb6",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes\n\n500 g de pechuga de pollo\n4 tortillas de trigo medianas\n80 g de mozzarella baja en grasa\n120 g de queso crema bajo en grasa\n20 g de queso parmesano rallado\n60 g de espinacas\n3 dientes de ajo\n80 ml de leche semidesnatada\n1 cucharadita de piment\u00F3n dulce\n1 cucharadita de ajo en polvo\n1 cucharadita de cebolla en polvo\n1 cucharadita de or\u00E9gano\nSal y pimienta negra al gusto\nAceite en spray\n\n\u2705 Preparaci\u00F3n\n\nCorta la pechuga de pollo en trozos peque\u00F1os.\nA\u00F1ade el piment\u00F3n, el ajo en polvo, la cebolla en polvo, el or\u00E9gano, la sal y la pimienta.\nMezcla bien para que el pollo quede impregnado de las especias.\nCocina el pollo en una sart\u00E9n durante 6-8 minutos, hasta que est\u00E9 bien hecho.\nA\u00F1ade los dientes de ajo rallados o picados muy finos y cocina durante 30 segundos.\nIncorpora el queso crema y remueve hasta que se derrita.\nA\u00F1ade la leche y mezcla hasta obtener una salsa cremosa y homog\u00E9nea.\nAgrega el parmesano y las espinacas.\nCocina unos minutos m\u00E1s, hasta que las espinacas se hayan reducido.\nColoca la mozzarella en el centro de cada tortilla.\nReparte encima el relleno cremoso de pollo.\nEnrolla las tortillas bien apretadas, cerrando los extremos si lo prefieres.\nPulveriza un poco de aceite por encima y espolvorea un poco m\u00E1s de or\u00E9gano.\n\n\u2705 Cocci\u00F3n en Airfryer\n\nCocina a 200 \u00B0C durante 6-8 minutos, hasta que los wraps est\u00E9n dorados y crujientes.\n\n\u2705 Cocci\u00F3n en horno\n\nPrecalienta el horno a 200 \u00B0C (calor arriba y abajo).\nColoca los wraps sobre una bandeja con papel de horno.\nHornea durante 10-15 minutos, d\u00E1ndoles la vuelta a mitad de cocci\u00F3n si deseas que queden m\u00E1s uniformemente dorados.\nEstar\u00E1n listos cuando est\u00E9n crujientes y con un bonito color dorado.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-10T20:13:53.156Z"
     }
   ],
   "Categories": [
@@ -1535,6 +1605,11 @@
       "Id": "980edb8e-1547-4da2-b185-8d346c2a540e",
       "Name": "Jam\u00F3n York",
       "NormalizedName": "jamon york"
+    },
+    {
+      "Id": "0264c112-18e8-4fc6-b8f2-072566ab46ea",
+      "Name": "Espinacas",
+      "NormalizedName": "espinacas"
     }
   ]
 }
