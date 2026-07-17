@@ -1181,6 +1181,22 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-17T11:50:05.036Z"
+    },
+    {
+      "Id": "7b0a1de7-ac5d-4f1d-ae34-519f68f4cce9",
+      "Title": "Nachos con tortillas de trigo",
+      "SourceUrl": "https://youtu.be/h2421d7U7Vo?t=1459",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "88a70768-ea49-4673-b348-9ea3f3b7c380",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes\nTortillas de ma\u00EDz\nAceite para fre\u00EDr\nSal\nElaboraci\u00F3n\n1. Preparar los totopos\nCorta las tortillas de ma\u00EDz en cuartos para formar tri\u00E1ngulos.\nSi tienes tiempo, d\u00E9jalas secar a temperatura ambiente durante 24 horas. Al perder parte de su humedad:\nQuedar\u00E1n mucho m\u00E1s crujientes.\nLa fritura ser\u00E1 mejor.\nAguantar\u00E1n mejor las salsas sin reblandecerse.\n\nConsejo: Puedes usar nachos comprados, pero los totopos caseros quedan mucho m\u00E1s crujientes y mantienen mejor su textura una vez cubiertos con ingredientes.\n\n2. Fre\u00EDr\nCalienta abundante aceite a 180 \u00B0C.\nFr\u00EDe los totopos en tandas, sin llenar demasiado la sart\u00E9n.\nEstar\u00E1n listos cuando dejen de burbujear.\nRet\u00EDralos y d\u00E9jalos escurrir sobre papel absorbente.\n3. Sazonar\nSala los totopos inmediatamente despu\u00E9s de sacarlos del aceite para que la sal se adhiera mejor.\nResultado\n\nObtendr\u00E1s unos totopos caseros muy crujientes, con mejor textura que los comerciales y perfectos para preparar unos buenos nachos o acompa\u00F1ar con guacamole, queso fundido, pico de gallo o cualquier otro dip.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-17T12:14:36.062Z"
     }
   ],
   "Categories": [
@@ -1660,6 +1676,11 @@
       "Id": "cbd3c2aa-c555-4a4d-8182-13049735c922",
       "Name": "Huesos jam\u00F3n",
       "NormalizedName": "huesos jamon"
+    },
+    {
+      "Id": "88a70768-ea49-4673-b348-9ea3f3b7c380",
+      "Name": "Tortilla de trigo",
+      "NormalizedName": "tortilla de trigo"
     }
   ]
 }
