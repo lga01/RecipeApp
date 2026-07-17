@@ -1141,6 +1141,42 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-10T20:13:53.156Z"
+    },
+    {
+      "Id": "9e60c022-ecad-4483-a795-4d73e9f0d856",
+      "Title": "Bechamel de Jam\u00F3n Ib\u00E9rico",
+      "SourceUrl": "https://youtu.be/h2421d7U7Vo?t=403",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+          "Quantity": "Cubitos por ejemplo"
+        },
+        {
+          "IngredientId": "ac7a897f-9c55-45d6-bd7e-ee775e279ee7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "bb3fd23c-5dd4-4add-9c2b-975ad4096fc1",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b0103e43-d074-484d-8dc1-0776e65e7217",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "92d3f178-6cf2-48e8-91b2-a7dd16af7035",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes\n200 g de jam\u00F3n (preferiblemente ib\u00E9rico), picado en tiras finas o \u0022virutas\u0022.\n50 g de mantequilla.\n50 g de harina.\nLeche infusionada con jam\u00F3n (preparada previamente).\nNata (mezclada con la leche infusionada).\nCebolla (cantidad al gusto, previamente picada).\nElaboraci\u00F3n\nPochar la cebolla\nDerrite los 50 g de mantequilla en una sart\u00E9n.\nA\u00F1ade la cebolla y coc\u00EDnala a fuego medio hasta que quede bien pochada, sin que llegue a dorarse.\nPreparar la leche\nCuela la leche que previamente has infusionado con el jam\u00F3n.\nM\u00E9zclala con la nata.\nHacer el roux\nIncorpora los 50 g de harina a la cebolla pochada.\nCocina la harina durante unos minutos, removiendo constantemente, hasta que desaparezca el olor a crudo.\nPreparar la bechamel\nA\u00F1ade poco a poco la mezcla de leche y nata, sin dejar de remover.\nEspera a que cada incorporaci\u00F3n se integre antes de a\u00F1adir m\u00E1s l\u00EDquido.\nContin\u00FAa hasta obtener una bechamel lisa y cremosa.\nIncorporar el jam\u00F3n\nA\u00F1ade los 200 g de jam\u00F3n picado.\nPuedes hacerlo de dos maneras:\nAl principio, junto con la cebolla, para conseguir una bechamel con un sabor a jam\u00F3n m\u00E1s integrado y una textura m\u00E1s cocinada.\nAl final (opci\u00F3n recomendada por el autor), para que el jam\u00F3n conserve m\u00E1s textura y su sabor destaque de forma m\u00E1s definida.\nReposo\nLo ideal es dejar reposar la bechamel al menos una noche en la nevera, ya que mejora notablemente su textura y sabor.\nAl d\u00EDa siguiente, simplemente cali\u00E9ntala en una sart\u00E9n o en el microondas antes de servir.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-17T11:50:05.036Z"
     }
   ],
   "Categories": [
