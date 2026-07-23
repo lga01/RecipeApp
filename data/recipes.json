@@ -1197,6 +1197,34 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-17T12:14:36.062Z"
+    },
+    {
+      "Id": "e67c4c1b-f677-4ebd-8223-b577a8fd0669",
+      "Title": "Champi\u00F1ones al ajillo con jam\u00F3n",
+      "SourceUrl": "https://www.youtube.com/watch?v=oZ7zE6QBUe8\u0026t=12",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "61c6ffe0-5c85-4ee0-8f49-8a672276f613",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2c09999e-6f9d-4eee-8ec5-931993244687",
+          "Quantity": "Opcional"
+        }
+      ],
+      "Steps": "Ingredientes (para 2 personas)\nChampi\u00F1ones frescos: 500 g (puedes dejarlos enteros o fileteados)\nJam\u00F3n serrano: 100 g en taquitos o virutas\nAjo: 3 o 4 dientesAceite de oliva virgen extra\nPerejil fresco picado\nSal y pimienta negra al gusto(Opcional) \nUn chorrito de vino blanco o un toque de guindilla para los amantes del picante.\nPasos para la preparaci\u00F3n\nPreparar los ingredientes: Limpia bien los champi\u00F1ones para retirar restos de tierra (preferiblemente con un pa\u00F1o h\u00FAmedo o pas\u00E1ndolos r\u00E1pidamente por agua) y c\u00F3rtalos en l\u00E1minas no muy finas. Pela los ajos y c\u00F3rtalos en l\u00E1minas finas.\nDorar el ajo: Calienta unas 4 cucharadas de aceite de oliva en una sart\u00E9n amplia a fuego medio. A\u00F1ade el ajo laminado y d\u00F3ralo con cuidado de no quemarlo. Si te gusta, puedes a\u00F1adir una guindilla en este paso.\nCocinar los champi\u00F1ones: Incorpora los champi\u00F1ones laminados a la sart\u00E9n y a\u00F1ade una pizca de sal. Sube un poco el fuego y deja que suelten toda el agua y se doren. Si decides usar vino blanco, a\u00F1\u00E1delo ahora y deja que el alcohol se evapore.\nA\u00F1adir el jam\u00F3n: Cuando el agua de los champi\u00F1ones se haya consumido y est\u00E9n tiernos, baja el fuego y agrega los taquitos o virutas de jam\u00F3n. Remueve todo durante un minuto. El jam\u00F3n solo necesita cocinarse brevemente con el calor residual para no quedar duro o excesivamente salado.\nToque final: Espolvorea perejil fresco picado por encima, remueve bien y retira del fuego. \u00A1S\u00EDrvelo caliente y a disfrutar!",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-23T21:10:19.91Z"
     }
   ],
   "Categories": [
@@ -1681,6 +1709,11 @@
       "Id": "88a70768-ea49-4673-b348-9ea3f3b7c380",
       "Name": "Tortilla de trigo",
       "NormalizedName": "tortilla de trigo"
+    },
+    {
+      "Id": "2c09999e-6f9d-4eee-8ec5-931993244687",
+      "Name": "Vino blanco",
+      "NormalizedName": "vino blanco"
     }
   ]
 }
