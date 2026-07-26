@@ -1225,6 +1225,77 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-23T21:10:19.91Z"
+    },
+    {
+      "Id": "ce536bfd-d32d-4a75-8862-44d8e44903c0",
+      "Title": "Chicken Popcorn Crujiente",
+      "SourceUrl": "https://www.youtube.com/shorts/4Xrs3XJG110",
+      "CategoryIds": [
+        "99f7a0b5-5cdd-4129-8ebc-34786c375c18",
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ba89e32c-b3b9-470a-8664-ca3d4d9865ff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "c216c8a7-e62d-4561-93e3-2374d625e7f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "530cf461-d6a4-40b0-8c9d-89cad7b9f3e5",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "c16ce1fe-01af-460d-951d-58234cc94c09",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3264cf89-7262-450f-a5bf-7e99c5309fb7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a3dc3091-3c99-48d3-b9eb-3f8f0808323f",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "175ab655-9e16-4964-bfa5-875235e9652d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "5994bd2e-6ed3-448c-81f2-52f23f1d18ea",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes\n600 g de contramuslo de pollo deshuesado y sin piel, cortado en dados\n1 huevo (L)\nAceite en spray\nEspecias\n1 cucharadita de ajo en polvo\n\u00BD cucharadita de cebolla en polvo\n1 cucharadita de piment\u00F3n dulce\n\u00BD cucharadita de cayena (opcional)\n\u00BD cucharadita de pimienta blanca\n\u00BD cucharadita de pimienta negra\n\u00BD cucharadita de or\u00E9gano\n\u00BD cucharadita de tomillo\n1\u00BD cucharaditas de sal\n1 cucharadita de levadura qu\u00EDmica (baking powder)\nRebozado\n30 g de maicena\n70 g de Corn Flakes sin az\u00FAcar, ligeramente triturados (que queden trozos peque\u00F1os, no polvo)\nSalsa de ajo (opcional)\n60 g de mayonesa ligera\n60 g de yogur griego 0%\nAjo en polvo al gusto\n1 cucharadita de miel\nSal al gusto\nUn chorrito de agua para ajustar la textura\nElaboraci\u00F3n\nCorta el pollo en dados del tama\u00F1o de un bocado.\nRoc\u00EDa ligeramente con aceite en spray.\nA\u00F1ade todas las especias junto con la levadura qu\u00EDmica y mezcla bien.\nIncorpora el huevo batido y remueve hasta que todo el pollo quede bien impregnado.\nA\u00F1ade la maicena y mezcla hasta que desaparezcan las zonas h\u00FAmedas.\nAgrega los Corn Flakes triturados y remueve suavemente para que se adhieran al pollo sin romperlos demasiado.\nColoca los trozos separados sobre la bandeja del horno o en la cesta de la freidora de aire y pulveriza ligeramente con aceite en spray.\nCocci\u00F3n\nFreidora de aire\n200 \u00B0C durante 10-12 minutos.\nA mitad de cocci\u00F3n (sobre el minuto 5-6), dales la vuelta y vuelve a pulverizar un poco de aceite si es necesario.\nHorno\n200 \u00B0C durante 15-18 minutos.\nDa la vuelta al pollo a mitad de cocci\u00F3n para que se dore de forma uniforme.\nConservaci\u00F3n\nGuarda el pollo en un recipiente herm\u00E9tico en la nevera hasta 3 d\u00EDas.\nPara recalentarlo, utiliza la freidora de aire a 200 \u00B0C durante 2-3 minutos para recuperar el crujiente.\n\nUn \u00FAltimo truco: antes de triturar los Corn Flakes, puedes mezclarlos con 1 cucharadita de piment\u00F3n y otra de ajo en polvo. As\u00ED el propio rebozado tambi\u00E9n queda sazonado y el color ser\u00E1 m\u00E1s dorado y apetecible.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-07-26T20:40:33.355Z"
     }
   ],
   "Categories": [
@@ -1714,6 +1785,31 @@
       "Id": "2c09999e-6f9d-4eee-8ec5-931993244687",
       "Name": "Vino blanco",
       "NormalizedName": "vino blanco"
+    },
+    {
+      "Id": "c216c8a7-e62d-4561-93e3-2374d625e7f2",
+      "Name": "Cayena",
+      "NormalizedName": "cayena"
+    },
+    {
+      "Id": "530cf461-d6a4-40b0-8c9d-89cad7b9f3e5",
+      "Name": "Pimienta blanca",
+      "NormalizedName": "pimienta blanca"
+    },
+    {
+      "Id": "c16ce1fe-01af-460d-951d-58234cc94c09",
+      "Name": "Levadura qu\u00EDmica",
+      "NormalizedName": "levadura quimica"
+    },
+    {
+      "Id": "a3dc3091-3c99-48d3-b9eb-3f8f0808323f",
+      "Name": "Tomillo",
+      "NormalizedName": "tomillo"
+    },
+    {
+      "Id": "5994bd2e-6ed3-448c-81f2-52f23f1d18ea",
+      "Name": "Corn flakes",
+      "NormalizedName": "corn flakes"
     }
   ]
 }
