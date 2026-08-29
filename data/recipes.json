@@ -1614,6 +1614,44 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T13:09:14.613Z"
+    },
+    {
+      "Id": "1cbb1aaf-fd28-4e5b-92b3-7ee49b46ca68",
+      "Title": "Sopa de esp\u00E1rragos con huevo, ajo y jam\u00F3n",
+      "SourceUrl": "https://www.tiktok.com/@cocinandocontigoo/video/7649104632702127382",
+      "CategoryIds": [
+        "24770020-f8b6-4786-a680-9c3bf58c52ba"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "81716eb2-4d70-44c3-888c-09918ba88a70",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "787a571f-f12a-4a8b-a92a-35799c05fdb6",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+          "Quantity": null
+        }
+      ],
+      "Steps": "\uD83E\uDD63 Ingredientes:\n\u2022 1 bote de esp\u00E1rragos (aprovechando tambi\u00E9n el agua del bote \u2728)\n\u2022 2 huevos cocidos\n\u2022 1/2 diente de ajo\n\u2022 Sal\n\u2022 Aceite de oliva virgen extra\n\u2022 Vinagre\n\n\u2728 Para acompa\u00F1ar:\n\u2022 Jam\u00F3n crujiente\n\nY el jam\u00F3n no puede ser m\u00E1s f\u00E1cil de hacer:\n\u26A1 30 segundos al microondas entre dos papeles y listo \uD83D\uDE2E\u200D\uD83D\uDCA8\uD83D\uDD25\n\nSe mezclan todos los ingredientes menos el jam\u00F3n y se trituran juntos, se a\u00F1ade a la sopa del final el jam\u00F3n crujiente y listo.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T13:13:54.473Z"
     }
   ],
   "Categories": [
@@ -1696,6 +1734,11 @@
       "Id": "0dbb4984-cb57-441f-8668-214b8b601cfe",
       "Name": "Desayuno",
       "NormalizedName": "desayuno"
+    },
+    {
+      "Id": "24770020-f8b6-4786-a680-9c3bf58c52ba",
+      "Name": "Cena",
+      "NormalizedName": "cena"
     }
   ],
   "Ingredients": [
@@ -2158,6 +2201,11 @@
       "Id": "3e232295-4753-4ce5-8089-b3a09a6ced31",
       "Name": "Pan de sandwich",
       "NormalizedName": "pan de sandwich"
+    },
+    {
+      "Id": "81716eb2-4d70-44c3-888c-09918ba88a70",
+      "Name": "Esp\u00E1rragos de bote",
+      "NormalizedName": "esparragos de bote"
     }
   ]
 }
