@@ -1380,6 +1380,50 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T12:04:56.088Z"
+    },
+    {
+      "Id": "1e967cea-ca89-40c2-a4ca-409e14af4d97",
+      "Title": "Dongurangteng, alb\u00F3ndigas a la coreana",
+      "SourceUrl": "https://www.youtube.com/watch?v=-DSPVhYP2-s",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "3fc4a1a3-9bce-4a68-b3a8-a8d6b1989d05",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "20909af9-d458-4d96-9e06-6da05412247c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "4e164940-25f7-44fe-b182-1a73a0ce988d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3a1c800c-3540-4b93-9020-981a72ac5e42",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "175ab655-9e16-4964-bfa5-875235e9652d",
+          "Quantity": null
+        }
+      ],
+      "Steps": "[Ingredientes]\n\u2022100 g de ternera picada\n\u2022150 g de cerdo picado\n\u2022100 g de tofu\n\u202210 g de ajo \n\u202225 g de puerro\n\u202250 g de cebolla\n\u202225 g de zanahoria\n\u20221 huevo\n\u20222 cucharaditas de maicena\n\nPara sazonar\n\u20222 cucharaditas de salsa de soja\n\u20222 pizcas de sal\n\u20222 cucharaditas de aceite de s\u00E9samo\n\n[Paso a paso]\n1. Picamos el puerro, la cebolla y la zanahoria muy fino.\n2. Envolvemos el tofu en un pa\u00F1o y lo escurrimos bien.\n3. En un bol grande mezclamos el tofu escurrido con la ternera y el cerdo picados, las verduras, el ajo, la salsa de soja, el aceite de s\u00E9samo y la sal.\n4. A\u00F1adimos la maicena y mezclamos hasta que quede todo bien integrado. \n5. Si la mezcla queda un poco blanda, vamos a\u00F1adiendo maicena poco a poco hasta ajustar la textura.\n6. Formamos medallones finos, de m\u00E1ximo 1 cm: hacemos una bola y la aplastamos ligeramente. Procuramos que todos queden del mismo tama\u00F1o para que se cocinen por igual.\n7. Batimos el huevo y pasamos cada medall\u00F3n por \u00E9l para cubrirlo.\n8. Calentamos una sart\u00E9n con aceite (cantidad generosa, pero sin llegar a fre\u00EDr en profundo) y cocinamos a fuego medio, con calma, para que se hagan por dentro sin quemarse por fuera.\n9. En unos 7\u20138 minutos deber\u00EDan estar hechos si las verduras est\u00E1n bien picadas. Para comprobarlo, probamos uno.\n10. Cuando est\u00E9n dorados por fuera y hechos por dentro, los sacamos y servimos al momento.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T12:12:12.625Z"
     }
   ],
   "Categories": [
