@@ -1564,6 +1564,56 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T13:04:54.049Z"
+    },
+    {
+      "Id": "84ef3463-d667-4e7d-aa0b-890090e9126c",
+      "Title": "Panecillos de patata y pollo",
+      "SourceUrl": "https://www.tiktok.com/@pinaapplesss/video/7629688376794402056",
+      "CategoryIds": [
+        "b628f9ac-89a4-4661-9575-21bc2327798b"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2eb22914-9dc5-454e-8c73-7c549c69b9f2",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3e232295-4753-4ce5-8089-b3a09a6ced31",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "feec5167-fff2-45b8-84c5-e738e00432ad",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        }
+      ],
+      "Steps": "1 cup boiled chicken (shredded)\n1 cup boiled potatoes (mashed)\n1 cup mozzarella\n1tsp black pepper\n1tbsp paprika powder\n1tbsp garlic powder\n1/2tsp red chili powder \n\nSe mezclan la patata cocida y el pollo, se a\u00F1aden las especias y el queso. Con esa masa que se forma, se hace un cilindro. Se aplasta con un rodillo una rodaja de pan de sandwich, se pone en medio la masa, se enrolla, se reboza el sandwich enrollado en huevo y se pasa por el pan. Por \u00FAltimo, se frien en aceite caliente.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T13:09:14.613Z"
     }
   ],
   "Categories": [
@@ -2103,6 +2153,11 @@
       "Id": "5b9660e9-848d-4d75-b32d-222d3699ad79",
       "Name": "Ma\u00EDz",
       "NormalizedName": "maiz"
+    },
+    {
+      "Id": "3e232295-4753-4ce5-8089-b3a09a6ced31",
+      "Name": "Pan de sandwich",
+      "NormalizedName": "pan de sandwich"
     }
   ]
 }
