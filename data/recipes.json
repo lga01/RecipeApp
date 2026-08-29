@@ -1424,6 +1424,58 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T12:12:12.625Z"
+    },
+    {
+      "Id": "1cb44bdf-d5a1-475b-90be-5cc678f55ac2",
+      "Title": "Burrito con pollo y guacamole",
+      "SourceUrl": "https://www.tiktok.com/@nomada.fitness/video/7644663695007649046",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e6dd3c1b-6910-42d6-95c8-0c57f5c4a635",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b47443ed-8512-4d13-a5ef-a2befd8bf7f7",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b8fc744f-449f-41dc-94c8-14b780ba58ea",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "5b9660e9-848d-4d75-b32d-222d3699ad79",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "4c05e2de-0f46-497a-a700-66221b78cdfb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "143eac3c-8d06-42cc-87a0-4e6c16821e36",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "16034b12-45c6-4c48-9faa-636949013e49",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e1fd5353-e054-4c26-a870-cdf1d794152d",
+          "Quantity": null
+        }
+      ],
+      "Steps": "\uD83D\uDED2 \uD835\uDC08\uD835\uDC27\uD835\uDC20\uD835\uDC2B\uD835\uDC1E\uD835\uDC1D\uD835\uDC22\uD835\uDC1E\uD835\uDC27\uD835\uDC2D\uD835\uDC1E\uD835\uDC2C (\uD835\uDFD0 \uD835\uDC28\u0301 \uD835\uDFCF \uD835\uDC2B\uD835\uDC1A\uD835\uDC1C\uD835\uDC22\uD835\uDC28\uD835\uDC27\uD835\uDC1E\uD835\uDC2C)\n\n\uD83C\uDF2F Base tortilla proteica\n4 huevos\n200g queso cottage\nSal\nOr\u00E9gano\n\n\uD83E\uDD63 Salsa tipo crema agria\n4 cucharadas yogur griego bajo en grasa\nZumo de 1 lima\nPimienta negra\nSal\n1\u20132 cucharadas de salsa picante (Valentina / rocoto o la que te guste)\n\n\uD83C\uDF2F Relleno\n120\u2013150g pechuga de pollo desmenuzada\n1 cucharada guacamole\n1 cucharada ma\u00EDz\n2 cucharadas arroz integral cocido\n2 cucharadas alubias cocidas\n\n\uD83D\uDC68\u200D\uD83C\uDF73 \uD835\uDC0F\uD835\uDC1A\uD835\uDC2C\uD835\uDC28 \uD835\uDC1A \uD835\uDC29\uD835\uDC1A\uD835\uDC2C\uD835\uDC28\n\n1\uFE0F\u20E3 Tritura los huevos \u002B cottage \u002B sal \u002B or\u00E9gano\n2\uFE0F\u20E3 Extiende la mezcla sobre papel de horno\n3\uFE0F\u20E3 Hornea 15\u201320 min a 180\u00B0C hasta que cuaje tipo \u201Ctortilla\u201D\n4\uFE0F\u20E3 Mezcla todos los ingredientes de la salsa\n5\uFE0F\u20E3 Unta la salsa sobre la base\n6\uFE0F\u20E3 A\u00F1ade el pollo \u002B guacamole \u002B ma\u00EDz \u002B pico de gallo \u002B arroz \u002B alubias\n7\uFE0F\u20E3 Enrolla y listo \uD83E\uDD1D",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T12:20:24.451Z"
     }
   ],
   "Categories": [
@@ -1948,6 +2000,21 @@
       "Id": "cb26c958-3fa5-4142-85ca-e9467bd1be45",
       "Name": "Pastilla de caldo de carne",
       "NormalizedName": "pastilla de caldo de carne"
+    },
+    {
+      "Id": "e6dd3c1b-6910-42d6-95c8-0c57f5c4a635",
+      "Name": "Guacamole",
+      "NormalizedName": "guacamole"
+    },
+    {
+      "Id": "b8fc744f-449f-41dc-94c8-14b780ba58ea",
+      "Name": "Alubias cocidas",
+      "NormalizedName": "alubias cocidas"
+    },
+    {
+      "Id": "5b9660e9-848d-4d75-b32d-222d3699ad79",
+      "Name": "Ma\u00EDz",
+      "NormalizedName": "maiz"
     }
   ]
 }
