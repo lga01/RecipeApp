@@ -1534,6 +1534,36 @@
       "Notes": null,
       "ImageUrl": "https://raw.githubusercontent.com/lga01/RecipeApp/main/images/receta.Id.jpg",
       "CreatedAt": "2026-08-29T12:53:18.658Z"
+    },
+    {
+      "Id": "4ff04e07-4d10-401b-bb92-364f2df4f339",
+      "Title": "Croquetas de patata y jam\u00F3n",
+      "SourceUrl": "https://www.tiktok.com/@adrianfitvibes/video/7616813091988311318",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2effc7cb-e568-43c7-846c-145857f69ae8",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3ea34832-2d9d-4a0d-9539-e9e4c7fa2bfc",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Solo necesitas:\n\uD83E\uDD54 400 g de patatas cocidas y escurridas\n\uD83E\uDDC0 40 g queso crema\n\uD83E\uDDC0 50 g mozzarella\n\uD83E\uDD53 90 g jam\u00F3n serrano\n\nMezcla todo bien y forma las croquetas.\nP\u00E1salas por huevo batido y luego por cornflakes triturados para el rebozado crujiente.\n\nAir Fryer 180\u00B0 \u2013 7/8 min por cada lado.\nCrujientes por fuera, brutales por dentro ",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T13:04:54.049Z"
     }
   ],
   "Categories": [
