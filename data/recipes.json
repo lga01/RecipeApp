@@ -1476,6 +1476,26 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T12:20:24.451Z"
+    },
+    {
+      "Id": "b8fcfbf8-694f-4a4a-9c5c-f982547dc4ad",
+      "Title": "Arroz con pechuga hervida",
+      "SourceUrl": "https://www.tiktok.com/@porter4house/video/7647238932874169622",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b47443ed-8512-4d13-a5ef-a2befd8bf7f7",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Se echa la pechuga a hacerse en una olla, para dorar la parte de fuera. Se echan especias, ajo en polvo, cebolla en polvo, curry, or\u00E9gano, pimienta, sal y un vaso de agua. Se deja 15 min tapado. Se desmenuza el pollo y se echa al arroz.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T12:48:26.078Z"
     }
   ],
   "Categories": [
