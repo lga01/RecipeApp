@@ -1652,6 +1652,42 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T13:13:54.473Z"
+    },
+    {
+      "Id": "1dc6cf3f-54a3-4890-82e3-a6bfa2d0c2a8",
+      "Title": "Saquitos de verduras y huevo con papel de arroz",
+      "SourceUrl": "https://www.tiktok.com/@paufeel/video/7648599255359278358",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "76d58dea-b769-4c1f-ad1e-a62ba2ed5e10",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3a1c800c-3540-4b93-9020-981a72ac5e42",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "33048b3d-33a9-4dd4-86b4-a67dd79a0deb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "d9706cb9-831d-4364-8d67-4320d143aeb0",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes para 4 saquitos:\n1 calabac\u00EDn\n2 zanahorias\nSal y pimienta al gusto\nAceite de oliva virgen extra\n4 papeles de arroz\n1 huevo\n4 lonchas de queso\nS\u00E9samo para decorar\n\nElaboraci\u00F3n:\nCorta el calabac\u00EDn y la zanahoria en tiras finas ayud\u00E1ndote de un pelador de patatas, pon a calentar una cucharada de aceite de oliva virgen extra en una sart\u00E9n y saltea durante 2 minutos.\nHidrata el papel de arroz en huevo batido, rellena, pon una loncha de queso y cierra en forma de paquete.\nPonlo en la freidora de aire, roc\u00EDa aceite de oliva virgen extra, un poco de s\u00E9samo y lleva durante 8 min a 180 grados, en horno ser\u00E1n unos 15/17 min a 180 grados.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T13:17:15.939Z"
     }
   ],
   "Categories": [
@@ -1739,6 +1775,11 @@
       "Id": "24770020-f8b6-4786-a680-9c3bf58c52ba",
       "Name": "Cena",
       "NormalizedName": "cena"
+    },
+    {
+      "Id": "d76fc3ac-e892-40ed-98de-c4a400dce9a2",
+      "Name": "Calabac\u00EDn",
+      "NormalizedName": "calabacin"
     }
   ],
   "Ingredients": [
@@ -2206,6 +2247,11 @@
       "Id": "81716eb2-4d70-44c3-888c-09918ba88a70",
       "Name": "Esp\u00E1rragos de bote",
       "NormalizedName": "esparragos de bote"
+    },
+    {
+      "Id": "33048b3d-33a9-4dd4-86b4-a67dd79a0deb",
+      "Name": "Queso en lonchas",
+      "NormalizedName": "queso en lonchas"
     }
   ]
 }
