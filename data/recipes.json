@@ -1340,6 +1340,46 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T11:59:59.173Z"
+    },
+    {
+      "Id": "06db484f-d456-45b8-9da0-adcd32e21d5d",
+      "Title": "Tteokbokki con papel de arroz 3",
+      "SourceUrl": "https://www.tiktok.com/@hamsikdang/video/7621256509317451029",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6728bb89-13a1-419f-a862-11e03fd25037",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "cb26c958-3fa5-4142-85ca-e9467bd1be45",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "a0c6fdad-ff49-4d50-b71c-4fc1c4117d11",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6608660e-c198-495f-99fe-2aa47d358418",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ee915c2a-9081-4235-81db-7f388216059e",
+          "Quantity": null
+        }
+      ],
+      "Steps": "16 hojas de papel de arroz\n500 ml de agua\n1 cucharada y media de az\u00FAcar\n1 pastilla de caldo de carne\n2 cucharaditas de piment\u00F3n picante\n1 cucharadita de ajo en polvo\n1 cucharadita de cayena molida\n1/2 cucharadita de curry en polvo\n1 cucharadita de salsa de soja\nhuevos cocidos (opcional)\ncebollino (opcional)\n\nSe hacen los tteok con el papel de arroz. 500 ml de agua en una sart\u00E9n, se echan las especias, al hervir se echan los tteok hasta que se hagan",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T12:04:56.088Z"
     }
   ],
   "Categories": [
@@ -1859,6 +1899,11 @@
       "Id": "8db96e66-f504-497b-a6f0-1c3ea3382d80",
       "Name": "Ternera",
       "NormalizedName": "ternera"
+    },
+    {
+      "Id": "cb26c958-3fa5-4142-85ca-e9467bd1be45",
+      "Name": "Pastilla de caldo de carne",
+      "NormalizedName": "pastilla de caldo de carne"
     }
   ]
 }
