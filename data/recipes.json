@@ -1296,6 +1296,50 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-07-26T20:40:33.355Z"
+    },
+    {
+      "Id": "23093554-b4d1-4485-9fbc-4064e0adc9bb",
+      "Title": "Tteokbokki con papel de arroz 2 sin picante",
+      "SourceUrl": "https://www.tiktok.com/@hamsikdang/video/7623469189315185940",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "3a1c800c-3540-4b93-9020-981a72ac5e42",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "dff88024-4e25-40a5-b6f8-ae020b649871",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "61c6ffe0-5c85-4ee0-8f49-8a672276f613",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "8db96e66-f504-497b-a6f0-1c3ea3382d80",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ee915c2a-9081-4235-81db-7f388216059e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6728bb89-13a1-419f-a862-11e03fd25037",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "1d3a776f-3e4f-41cd-970b-bd7dfecaaa51",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Se corta la zanahoria, la cebolla y los champi\u00F1ones. La ternera se corta fina y se deja marinando con salsa de soja, az\u00FAcar y ajo. Se hacen los tteok con el papel de arroz. Se saltea la carne en una sart\u00E9n, se a\u00F1ade el ajo y se meten las verduras, se a\u00F1aden unos 200 ml de agua, azucar, salsa de soja y cuando empiece a hervir se meten los tteok.",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T11:59:59.173Z"
     }
   ],
   "Categories": [
@@ -1810,6 +1854,11 @@
       "Id": "5994bd2e-6ed3-448c-81f2-52f23f1d18ea",
       "Name": "Corn flakes",
       "NormalizedName": "corn flakes"
+    },
+    {
+      "Id": "8db96e66-f504-497b-a6f0-1c3ea3382d80",
+      "Name": "Ternera",
+      "NormalizedName": "ternera"
     }
   ]
 }
