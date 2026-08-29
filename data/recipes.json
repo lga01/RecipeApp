@@ -1496,6 +1496,44 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T12:48:26.078Z"
+    },
+    {
+      "Id": "955a2435-51b5-4b48-8a38-bb1508020fbc",
+      "Title": "Patata cocida con pollo, queso y salsa de ajo y queso crema",
+      "SourceUrl": "https://www.tiktok.com/@laauraavz/video/7642036750356974870",
+      "CategoryIds": [
+        "9b8aa8f5-669c-4a20-a4a0-c3b111809eb4"
+      ],
+      "Ingredients": [
+        {
+          "IngredientId": "3963ea1d-28a1-4856-978d-a8d780680f87",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "2effc7cb-e568-43c7-846c-145857f69ae8",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b0103e43-d074-484d-8dc1-0776e65e7217",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "62234bf3-a261-4950-ac35-f5fd78735aff",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "14a8202a-299e-44cf-8308-d4a9ec6fb39a",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Se hace una base de patata cocida con un poco de sal y pimienta, se a\u00F1ade el pollo cocido troceado por encima, para la salsa 1 cucharada de queso crema, un chorro de leche, sal y ajo en polvo, se a\u00F1ade a la mezcla, un poco de queso mozzarella por encima, se mete a la airfryer",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-29T12:53:18.658Z"
     }
   ],
   "Categories": [
