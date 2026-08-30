@@ -1708,6 +1708,38 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-30T19:13:48.617Z"
+    },
+    {
+      "Id": "467fc8b5-d85f-4bd8-a05a-1c89e1423db8",
+      "Title": "Ensalada de garbanzos, pollo y pesto",
+      "SourceUrl": "https://www.tiktok.com/@revolucionatudieta/video/7649733828050701590",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "7c33ab1b-71d2-4f14-9521-001b6d8edd73",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "0fabb54c-c69e-40b5-a177-64adfc6054cb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "bf162853-b562-43df-b376-1e27a3cfdc17",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "03684a6f-e0df-4f55-b352-904a8545fe92",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6da773c2-6e29-402b-831a-7dfad527b3a4",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Echar garbanzos cocidos, queso feta, pepino, pechuga de pollo hecha en la sart\u00E9n y pesto",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-30T19:15:16.336Z"
     }
   ],
   "Categories": [
@@ -2277,6 +2309,21 @@
       "Id": "fb2fa548-1d3b-4a4f-8bd5-5f5649b67ca6",
       "Name": "Queso fresco",
       "NormalizedName": "queso fresco"
+    },
+    {
+      "Id": "7c33ab1b-71d2-4f14-9521-001b6d8edd73",
+      "Name": "Garbanzos",
+      "NormalizedName": "garbanzos"
+    },
+    {
+      "Id": "0fabb54c-c69e-40b5-a177-64adfc6054cb",
+      "Name": "Queso feta",
+      "NormalizedName": "queso feta"
+    },
+    {
+      "Id": "6da773c2-6e29-402b-831a-7dfad527b3a4",
+      "Name": "Pesto",
+      "NormalizedName": "pesto"
     }
   ]
 }
