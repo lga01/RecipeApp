@@ -1688,6 +1688,26 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-29T13:17:15.939Z"
+    },
+    {
+      "Id": "2da7698e-5125-49da-ab97-db8329681451",
+      "Title": "Crepes de queso fresco",
+      "SourceUrl": "https://www.tiktok.com/@paufeel/video/7621153023691214102",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "fb2fa548-1d3b-4a4f-8bd5-5f5649b67ca6",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "e23d2162-432d-401e-9f22-6394f143ce9c",
+          "Quantity": null
+        }
+      ],
+      "Steps": "70 g queso fresco y 2 huevos, se baten y a hacer los crepes",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-08-30T19:13:48.617Z"
     }
   ],
   "Categories": [
@@ -2252,6 +2272,11 @@
       "Id": "33048b3d-33a9-4dd4-86b4-a67dd79a0deb",
       "Name": "Queso en lonchas",
       "NormalizedName": "queso en lonchas"
+    },
+    {
+      "Id": "fb2fa548-1d3b-4a4f-8bd5-5f5649b67ca6",
+      "Name": "Queso fresco",
+      "NormalizedName": "queso fresco"
     }
   ]
 }
