@@ -1740,6 +1740,50 @@
       "Notes": null,
       "ImageUrl": null,
       "CreatedAt": "2026-08-30T19:15:16.336Z"
+    },
+    {
+      "Id": "e171c56f-0cd8-46e6-b84f-f97c1f399038",
+      "Title": "Dumplings con papel de arroz",
+      "SourceUrl": "https://www.youtube.com/watch?v=MS4h1nIMB88",
+      "CategoryIds": [],
+      "Ingredients": [
+        {
+          "IngredientId": "d7beaa3b-236f-4e5c-acf6-60ccb37b3a17",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "6412b2b7-a513-47bc-9839-e156075a9516",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "8a761762-2448-40ba-9c64-ea5c611d9e56",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "ee915c2a-9081-4235-81db-7f388216059e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "04c76d3f-2af8-4d5e-a5c8-91ad05f4cabb",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "b489ae57-bad8-47f6-9520-9e946196fc6e",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "cb58a6b9-503f-4dfa-9d4b-88f7afdf4225",
+          "Quantity": null
+        },
+        {
+          "IngredientId": "bb3fd23c-5dd4-4add-9c2b-975ad4096fc1",
+          "Quantity": null
+        }
+      ],
+      "Steps": "Ingredientes para 2 personas:\n\n    160 g de col (repollo)\n    1 ajo tierno (unos 25 g)\n    280 g de carne picada de cerdo\n    4 cs de salsa de soja\n    2 cs de aceite de oliva (para el relleno) \u002B un chorrito extra para la sart\u00E9n\n    1/4 cp de jengibre rallado\n    Obleas de papel de arroz\n    Harina (para rebozar y que no se peguen)\n\nConsejos y trucos para hacer estos dumplings de cerdo f\u00E1ciles\n\n    No uses agua caliente: Para hidratar el papel de arroz, usa agua del tiempo. Si est\u00E1 demasiado caliente, la oblea se volver\u00E1 un chicle y se te romper\u00E1 antes de rellenarla.\n    Cero burbujas de aire: Al enrollar el relleno, intenta apretar bien el papel de arroz. Si dejas aire atrapado dentro, al fre\u00EDrlos se inflar\u00E1n y es muy probable que terminen rompi\u00E9ndose en la sart\u00E9n.\n    Deja espacio en la sart\u00E9n: No amontones los dumplings al cocinarlos. El papel de arroz tiende a pegarse con todo lo que toca mientras est\u00E1 h\u00FAmedo. Deja un pel\u00EDn de separaci\u00F3n entre ellos en la sart\u00E9n para que se doren de forma independiente.\n\nPaso a paso: \u00BFC\u00F3mo hacer dumplings de cerdo con papel de arroz?\n1. Preparar el relleno de los dumplings\n\n    Corta la col y el ajo tierno lo m\u00E1s finito que puedas.\n    En un bol grande, a\u00F1ade los ingredientes del relleno: 280 g de carne picada de cerdo, la col, el ajo tierno, 4 cs de salsa de soja, 2 cs de aceite de oliva y 1/4 cp de jengibre rallado.\n    Amasa todo con las manos o con una cuchara hasta que quede una masa homog\u00E9nea y res\u00E9rvalo.\n2. Forma los \u00ABchurros\u00BB de dumpling\n\n    Remoja una oblea de papel de arroz en agua unos segundos, retira el exceso de agua y col\u00F3cala sobre tu mesa de trabajo.\n    Coloca en el centro unas una cucharada sopera y media de relleno. Comp\u00E1ctalo un poco d\u00E1ndole una forma alargada, como si fuera una salchicha (en las fotos de abajo ver\u00E1s exactamente el aspecto que tiene).\n    Espera a que se vuelva completamente flexible y envuelve el relleno con el papel de arroz, asegur\u00E1ndote de apretar bien para que no quede nada de aire atrapado entre la oblea y la carne.\n    Para que no se rompan al cocinarlos, repite el proceso: hidrata una segunda oblea de papel de arroz, pon el rollo que acabas de hacer dentro y vuelve a enrollarlo. \u00A1As\u00ED quedar\u00E1n blindados!\n    Haz lo mismo con el resto de la masa y m\u00E1s obleas de papel de arroz hasta que se te acabe el relleno.\n\n3. Enharina y corta los dumplings\n\n    Espolvorea un poco de harina por arriba y por debajo de los rulos que has formado.\n    Con un cuchillo afilado, corta los rollos en trozos del tama\u00F1o de un bocado.\n    Coloca los trozos con el relleno mirando hacia arriba y vuelve a darles una capa final de harina por los dos lados.\n\n4. Cocina los dumplings con papel de arroz\n\n    Pon una sart\u00E9n antiadherente al fuego con un buen chorro de aceite de oliva y coloca los dumplings.\n    A\u00F1ade un poco de agua enseguida (m\u00E1s o menos 1/6 parte de un vaso) y tapa la sart\u00E9n de inmediato. De esta forma, la carne se cocinar\u00E1 primero gracias al vapor.\n    Cuando veas que queda muy poca agua, retira la tapa y deja que el l\u00EDquido termine de evaporarse por completo.\n    En cuanto se evapore el agua, ver\u00E1s c\u00F3mo empiezan a dorarse. Deja que cojan ese tono tostado tan top. Dales la vuelta para que se doren por el otro lado y\u2026 \u00A1listos para disfrutar!\n\n\nServir con salsa de soja",
+      "Notes": null,
+      "ImageUrl": null,
+      "CreatedAt": "2026-09-03T18:10:36.437Z"
     }
   ],
   "Categories": [
@@ -2324,6 +2368,26 @@
       "Id": "6da773c2-6e29-402b-831a-7dfad527b3a4",
       "Name": "Pesto",
       "NormalizedName": "pesto"
+    },
+    {
+      "Id": "d7beaa3b-236f-4e5c-acf6-60ccb37b3a17",
+      "Name": "Col",
+      "NormalizedName": "col"
+    },
+    {
+      "Id": "6412b2b7-a513-47bc-9839-e156075a9516",
+      "Name": "Ajo tierno",
+      "NormalizedName": "ajo tierno"
+    },
+    {
+      "Id": "8a761762-2448-40ba-9c64-ea5c611d9e56",
+      "Name": "Carne picada de cerdo",
+      "NormalizedName": "carne picada de cerdo"
+    },
+    {
+      "Id": "b489ae57-bad8-47f6-9520-9e946196fc6e",
+      "Name": "Jengibre",
+      "NormalizedName": "jengibre"
     }
   ]
 }
